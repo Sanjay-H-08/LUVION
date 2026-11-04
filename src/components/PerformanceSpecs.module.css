@@ -1,0 +1,265 @@
+.container {
+  position: relative;
+  width: 100%;
+  background-color: var(--luvion-obsidian);
+  padding: 100px 32px 90px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+}
+
+.bgAtmosphere {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url("/assets/porsche/optimized/gt3rs_992_icegrey_track_dynamic.webp");
+  background-size: cover;
+  background-position: center;
+  opacity: 0.18;
+  filter: grayscale(80%) contrast(1.15);
+  pointer-events: none;
+}
+
+.gradientVignette {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background:
+    linear-gradient(to bottom, #101112 0%, rgba(16, 17, 18, 0.7) 40%, rgba(16, 17, 18, 0.8) 70%, #101112 100%),
+    radial-gradient(circle at 50% 50%, rgba(16, 17, 18, 0.5) 0%, #101112 100%);
+  pointer-events: none;
+}
+
+.inner {
+  position: relative;
+  width: 100%;
+  max-width: 1360px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 1;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 48px;
+  max-width: 760px;
+}
+
+.chapterLabel {
+  font-family: var(--font-technical);
+  font-size: 11px;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--luvion-racing-red);
+  margin: 0 0 12px;
+  font-weight: 600;
+}
+
+.title {
+  font-family: var(--font-display);
+  font-size: clamp(32px, 5.2vw, 56px);
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  color: var(--luvion-porcelain);
+  margin: 0 0 14px;
+  text-transform: uppercase;
+  line-height: 1.05;
+}
+
+.subtitle {
+  font-family: var(--font-editorial);
+  font-size: clamp(14px, 1.8vw, 17px);
+  color: var(--luvion-titanium);
+  margin: 0;
+  line-height: 1.6;
+}
+
+/* Metric Figures Grid */
+.figuresGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  width: 100%;
+  margin-bottom: 36px;
+}
+
+.metricCard {
+  background: rgba(24, 26, 28, 0.7);
+  border: 1px solid var(--luvion-border);
+  border-radius: var(--radius-md);
+  padding: 32px 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  transition: var(--transition-smooth);
+  backdrop-filter: blur(8px);
+}
+
+.metricCard:hover {
+  background: rgba(36, 38, 41, 0.95);
+  border-color: var(--luvion-border-hover);
+  transform: translateY(-4px);
+  box-shadow: 0 16px 36px -8px rgba(0, 0, 0, 0.6);
+}
+
+.metricValue {
+  font-family: var(--font-display);
+  font-size: clamp(34px, 4.4vw, 52px);
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  color: var(--luvion-porcelain);
+  margin: 0 0 8px;
+  line-height: 1;
+}
+
+.metricLabel {
+  font-family: var(--font-technical);
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--luvion-titanium);
+  margin: 0;
+}
+
+.metricAccent {
+  color: var(--luvion-racing-red);
+  margin-left: 2px;
+}
+
+.disclaimerText {
+  font-family: var(--font-technical);
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--luvion-titanium-dark);
+  text-align: center;
+  margin: 0 0 32px;
+}
+
+/* Technical Story Action Button */
+.storyBtn {
+  font-family: var(--font-technical);
+  font-size: 11.5px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  font-weight: 600;
+  padding: 14px 32px;
+  border-radius: var(--radius-sm);
+  background: transparent;
+  color: var(--luvion-porcelain);
+  border: 1px solid var(--luvion-border-medium);
+  cursor: pointer;
+  transition: var(--transition-quick);
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.storyBtn:hover {
+  background: var(--luvion-porcelain);
+  color: var(--luvion-obsidian);
+  border-color: var(--luvion-porcelain);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(233, 232, 228, 0.15);
+}
+
+/* Technical Telemetry Drawer */
+.telemetryDrawer {
+  width: 100%;
+  max-width: 1100px;
+  margin-top: 36px;
+  background: rgba(18, 20, 22, 0.94);
+  border: 1px solid var(--luvion-border-medium);
+  border-radius: var(--radius-lg);
+  padding: 36px 40px;
+  backdrop-filter: blur(16px);
+  animation: fadeIn 0.4s var(--ease-out-expo);
+}
+
+.drawerGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 28px;
+}
+
+.specGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.groupTitle {
+  font-family: var(--font-technical);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--luvion-racing-red);
+  margin: 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  padding-bottom: 8px;
+}
+
+.specRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 12px;
+}
+
+.specKey {
+  font-family: var(--font-technical);
+  font-size: 12px;
+  color: var(--luvion-titanium);
+}
+
+.specVal {
+  font-family: var(--font-technical);
+  font-size: 12.5px;
+  font-weight: 600;
+  color: var(--luvion-porcelain);
+  text-align: right;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 1024px) {
+  .figuresGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .drawerGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 640px) {
+  .container {
+    padding: 60px 16px 40px;
+  }
+  .figuresGrid {
+    grid-template-columns: 1fr;
+  }
+  .drawerGrid {
+    grid-template-columns: 1fr;
+  }
+  .telemetryDrawer {
+    padding: 24px 20px;
+  }
+}

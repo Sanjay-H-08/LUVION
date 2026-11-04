@@ -1,3 +1,88 @@
-/* Generated from Framer colour styles. */
+/* LUVION Design Token Architecture & Automotive Theme Foundations */
 :root {
+  /* Automotive Palette */
+  --luvion-obsidian: #101112;
+  --luvion-obsidian-deep: #08090b;
+  --luvion-graphite: #1a1c1e;
+  --luvion-graphite-elevated: #242629;
+  --luvion-porcelain: #e9e8e4;
+  --luvion-porcelain-muted: #c2c1be;
+  --luvion-racing-red: #d12631;
+  --luvion-racing-red-glow: rgba(209, 38, 49, 0.35);
+  --luvion-titanium: #969a9e;
+  --luvion-titanium-dark: #626569;
+
+  /* Surfaces & Borders */
+  --luvion-border: rgba(233, 232, 228, 0.08);
+  --luvion-border-medium: rgba(233, 232, 228, 0.16);
+  --luvion-border-hover: rgba(233, 232, 228, 0.32);
+  --luvion-surface-subtle: rgba(255, 255, 255, 0.02);
+  --luvion-surface-card: rgba(24, 26, 28, 0.82);
+  --luvion-surface-card-hover: rgba(36, 38, 41, 0.95);
+
+  /* Typography Stacks */
+  --font-display: 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-editorial: 'Manrope', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-technical: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+
+  /* Architectural Radii */
+  --radius-xs: 2px;
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-xl: 16px;
+  --radius-pill: 9999px;
+
+  /* Transitions & Motion */
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-in-out: cubic-bezier(0.4, 0, 0.2, 1);
+  --duration-fast: 200ms;
+  --duration-normal: 400ms;
+  --duration-slow: 750ms;
 }
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  background-color: var(--luvion-obsidian);
+  color: var(--luvion-porcelain);
+  font-family: var(--font-technical);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--luvion-obsidian);
+  color: var(--luvion-porcelain);
+  overflow-x: hidden;
+}
+
+/* Custom restrained scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--luvion-obsidian);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--luvion-graphite-elevated);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--luvion-titanium-dark);
+}
+
+::selection {
+  background: var(--luvion-racing-red);
+  color: #ffffff;
+}
+

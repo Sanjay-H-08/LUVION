@@ -1,0 +1,232 @@
+.container {
+  position: relative;
+  width: 100%;
+  min-height: 85vh;
+  background-color: #0b0c0e;
+  padding: 100px 32px 90px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+}
+
+.inner {
+  width: 100%;
+  max-width: 1440px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 40px;
+  max-width: 800px;
+}
+
+.chapterLabel {
+  font-family: var(--font-technical);
+  font-size: 11px;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--luvion-racing-red);
+  margin: 0 0 12px;
+  font-weight: 600;
+}
+
+.title {
+  font-family: var(--font-display);
+  font-size: clamp(32px, 5.2vw, 56px);
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  color: var(--luvion-porcelain);
+  margin: 0 0 14px;
+  text-transform: uppercase;
+  line-height: 1.05;
+}
+
+.subtitle {
+  font-family: var(--font-editorial);
+  font-size: clamp(14px, 1.8vw, 17px);
+  color: var(--luvion-titanium);
+  margin: 0;
+  line-height: 1.6;
+}
+
+/* Cinematic Editorial Stage */
+.stage {
+  position: relative;
+  width: 100%;
+  max-width: 1320px;
+  aspect-ratio: 21 / 9;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  background: #08090a;
+  border: 1px solid var(--luvion-border);
+  box-shadow: 0 32px 80px -16px rgba(0, 0, 0, 0.8);
+}
+
+.slideImage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0;
+  transform: scale(1.02);
+  transition: opacity 0.8s var(--ease-out-expo), transform 1.2s var(--ease-out-expo);
+  pointer-events: none;
+}
+
+.slideImageActive {
+  opacity: 1;
+  transform: scale(1);
+  pointer-events: auto;
+}
+
+.vignette {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background:
+    linear-gradient(90deg, rgba(8, 9, 11, 0.95) 0%, rgba(8, 9, 11, 0.65) 45%, rgba(8, 9, 11, 0.2) 100%),
+    linear-gradient(to top, rgba(8, 9, 11, 0.8) 0%, transparent 40%);
+  pointer-events: none;
+}
+
+/* Editorial Text Box */
+.contentBox {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 55%;
+  padding: 56px 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  z-index: 2;
+}
+
+.perspectiveLabel {
+  font-family: var(--font-technical);
+  font-size: 11px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--luvion-racing-red);
+  margin: 0 0 14px;
+  font-weight: 700;
+}
+
+.headline {
+  font-family: var(--font-display);
+  font-size: clamp(26px, 3.4vw, 42px);
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  color: var(--luvion-porcelain);
+  margin: 0 0 16px;
+  line-height: 1.12;
+}
+
+.accentRule {
+  width: 44px;
+  height: 2px;
+  background: var(--luvion-racing-red);
+  margin: 0 0 20px;
+}
+
+.bodyCopy {
+  font-family: var(--font-editorial);
+  font-size: clamp(14px, 1.6vw, 16.5px);
+  color: var(--luvion-porcelain-muted);
+  line-height: 1.7;
+  margin: 0;
+  max-width: 520px;
+}
+
+/* Interactive Navigation Tabs */
+.navBar {
+  margin-top: 32px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.perspectiveBtn {
+  font-family: var(--font-technical);
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  padding: 10px 24px;
+  border-radius: var(--radius-sm);
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid var(--luvion-border);
+  color: var(--luvion-titanium);
+  cursor: pointer;
+  transition: var(--transition-quick);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.perspectiveBtn:hover {
+  background: rgba(255, 255, 255, 0.08);
+  color: var(--luvion-porcelain);
+  border-color: var(--luvion-border-hover);
+}
+
+.perspectiveBtnActive {
+  background: var(--luvion-graphite-elevated);
+  border-color: var(--luvion-racing-red);
+  color: var(--luvion-porcelain);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
+}
+
+.pip {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--luvion-titanium-dark);
+}
+
+.perspectiveBtnActive .pip {
+  background: var(--luvion-racing-red);
+}
+
+@media (max-width: 960px) {
+  .stage {
+    aspect-ratio: 16 / 10;
+  }
+  .contentBox {
+    width: 80%;
+    padding: 36px 32px;
+  }
+}
+
+@media (max-width: 640px) {
+  .container {
+    padding: 60px 16px 40px;
+  }
+  .stage {
+    aspect-ratio: 4 / 3;
+  }
+  .contentBox {
+    width: 100%;
+    padding: 24px;
+  }
+  .navBar {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+  }
+  .perspectiveBtn {
+    padding: 8px 14px;
+    font-size: 11px;
+  }
+}

@@ -1,0 +1,126 @@
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 64px;
+  background: rgba(14, 15, 17, 0.85);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-bottom: 1px solid var(--luvion-border);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 40px;
+  z-index: 900;
+  transform: translateY(-100%);
+  transition: transform 0.4s var(--ease-out-expo), background-color 0.3s ease;
+}
+
+.navVisible {
+  transform: translateY(0);
+}
+
+.brandGroup {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  text-decoration: none;
+}
+
+.marque {
+  font-family: var(--font-display);
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  color: var(--luvion-porcelain);
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.marqueDot {
+  width: 5px;
+  height: 5px;
+  background: var(--luvion-racing-red);
+  border-radius: 1px;
+}
+
+.modelBadge {
+  font-family: var(--font-technical);
+  font-size: 10px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--luvion-titanium);
+  padding: 3px 8px;
+  border-radius: var(--radius-xs);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.navLinks {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navLink {
+  font-family: var(--font-technical);
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--luvion-titanium);
+  text-decoration: none;
+  transition: var(--transition-quick);
+  padding: 6px 0;
+  position: relative;
+}
+
+.navLink:hover {
+  color: var(--luvion-porcelain);
+}
+
+.navLink:hover::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 1.5px;
+  background: var(--luvion-racing-red);
+}
+
+.ctaBtn {
+  font-family: var(--font-technical);
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  padding: 8px 18px;
+  border-radius: var(--radius-sm);
+  background: transparent;
+  color: var(--luvion-porcelain);
+  border: 1px solid var(--luvion-border-medium);
+  cursor: pointer;
+  text-decoration: none;
+  transition: var(--transition-quick);
+}
+
+.ctaBtn:hover {
+  background: var(--luvion-porcelain);
+  color: var(--luvion-obsidian);
+  border-color: var(--luvion-porcelain);
+}
+
+@media (max-width: 1024px) {
+  .nav {
+    padding: 0 20px;
+  }
+  .navLinks {
+    display: none;
+  }
+}

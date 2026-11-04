@@ -1,0 +1,322 @@
+.container {
+  position: relative;
+  width: 100%;
+  background-color: var(--luvion-obsidian);
+  padding: 100px 32px 90px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+}
+
+.inner {
+  width: 100%;
+  max-width: 1360px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 44px;
+  max-width: 760px;
+}
+
+.chapterLabel {
+  font-family: var(--font-technical);
+  font-size: 11px;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--luvion-racing-red);
+  margin: 0 0 12px;
+  font-weight: 600;
+}
+
+.title {
+  font-family: var(--font-display);
+  font-size: clamp(32px, 5.2vw, 56px);
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  color: var(--luvion-porcelain);
+  margin: 0 0 14px;
+  text-transform: uppercase;
+  line-height: 1.05;
+}
+
+.subtitle {
+  font-family: var(--font-editorial);
+  font-size: clamp(14px, 1.8vw, 17px);
+  color: var(--luvion-titanium);
+  margin: 0;
+  line-height: 1.6;
+}
+
+/* Form Layout: Two Columns (Image Hero + Form) */
+.formLayout {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1.15fr;
+  background: var(--luvion-surface-card);
+  border: 1px solid var(--luvion-border);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: 0 32px 80px -16px rgba(0, 0, 0, 0.75);
+}
+
+.imageHero {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  min-height: 560px;
+  background: #090a0c;
+  overflow: hidden;
+}
+
+.heroImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.imageGradient {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background:
+    linear-gradient(to top, rgba(16, 17, 18, 0.95) 0%, rgba(16, 17, 18, 0.3) 50%, transparent 100%),
+    linear-gradient(to right, transparent 60%, rgba(24, 26, 28, 0.95) 100%);
+  pointer-events: none;
+}
+
+.imageBadge {
+  position: absolute;
+  bottom: 32px;
+  left: 32px;
+  right: 32px;
+  z-index: 2;
+}
+
+.badgeCategory {
+  font-family: var(--font-technical);
+  font-size: 10.5px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--luvion-racing-red);
+  margin: 0 0 6px;
+  font-weight: 600;
+}
+
+.badgeTitle {
+  font-family: var(--font-display);
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--luvion-porcelain);
+  margin: 0 0 6px;
+}
+
+.badgeDesc {
+  font-family: var(--font-editorial);
+  font-size: 13px;
+  color: var(--luvion-titanium);
+  margin: 0;
+  line-height: 1.5;
+}
+
+/* Form Pane */
+.formPane {
+  padding: 48px 44px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: linear-gradient(135deg, rgba(26, 28, 30, 0.92) 0%, rgba(18, 19, 21, 0.98) 100%);
+}
+
+.formGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  margin-bottom: 24px;
+}
+
+.fieldFull {
+  grid-column: 1 / -1;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.fieldLabel {
+  font-family: var(--font-technical);
+  font-size: 11.5px;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--luvion-porcelain-muted);
+}
+
+.input {
+  width: 100%;
+  padding: 12px 16px;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid var(--luvion-border-medium);
+  border-radius: var(--radius-sm);
+  color: var(--luvion-porcelain);
+  font-family: var(--font-technical);
+  font-size: 13.5px;
+  outline: none;
+  transition: var(--transition-quick);
+}
+
+.input:focus {
+  border-color: var(--luvion-racing-red);
+  background: rgba(255, 255, 255, 0.07);
+  box-shadow: 0 0 0 1px var(--luvion-racing-red);
+}
+
+.inputError {
+  border-color: #ff4d4f !important;
+}
+
+.textarea {
+  resize: vertical;
+  min-height: 96px;
+}
+
+.errorMessage {
+  font-family: var(--font-technical);
+  font-size: 11px;
+  color: #ff4d4f;
+  margin: -4px 0 0;
+}
+
+.disclaimer {
+  font-family: var(--font-editorial);
+  font-size: 12px;
+  color: var(--luvion-titanium-dark);
+  line-height: 1.55;
+  margin: 0 0 24px;
+}
+
+.submitBtn {
+  font-family: var(--font-technical);
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  padding: 16px 36px;
+  border-radius: var(--radius-sm);
+  background: var(--luvion-porcelain);
+  color: var(--luvion-obsidian);
+  border: 1px solid var(--luvion-porcelain);
+  cursor: pointer;
+  transition: var(--transition-quick);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  width: 100%;
+}
+
+.submitBtn:hover {
+  background: #ffffff;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(233, 232, 228, 0.2);
+}
+
+/* Success Confirmation Card */
+.confirmationCard {
+  padding: 48px 36px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  animation: fadeIn 0.4s var(--ease-out-expo);
+}
+
+.confirmIcon {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: rgba(209, 38, 49, 0.15);
+  border: 1px solid var(--luvion-racing-red);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--luvion-racing-red);
+  margin-bottom: 20px;
+}
+
+.confirmTitle {
+  font-family: var(--font-display);
+  font-size: 28px;
+  font-weight: 600;
+  color: var(--luvion-porcelain);
+  margin: 0 0 12px;
+}
+
+.confirmCopy {
+  font-family: var(--font-editorial);
+  font-size: 14.5px;
+  line-height: 1.65;
+  color: var(--luvion-titanium);
+  margin: 0 0 28px;
+  max-width: 520px;
+}
+
+.resetBtn {
+  font-family: var(--font-technical);
+  font-size: 11.5px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  padding: 12px 28px;
+  border-radius: var(--radius-sm);
+  background: transparent;
+  color: var(--luvion-porcelain);
+  border: 1px solid var(--luvion-border-medium);
+  cursor: pointer;
+  transition: var(--transition-quick);
+}
+
+.resetBtn:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: var(--luvion-porcelain);
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(12px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@media (max-width: 960px) {
+  .formLayout {
+    grid-template-columns: 1fr;
+  }
+  .imageHero {
+    min-height: 280px;
+  }
+  .imageGradient {
+    background: linear-gradient(to top, rgba(24, 26, 28, 0.95) 0%, transparent 60%);
+  }
+  .formPane {
+    padding: 32px 24px;
+  }
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding: 60px 16px 40px;
+  }
+  .formGrid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+}

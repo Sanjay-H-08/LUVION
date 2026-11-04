@@ -1,0 +1,311 @@
+.container {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--luvion-obsidian);
+  overflow: hidden;
+  padding: 100px 32px 80px;
+}
+
+.titaniumEnvironment {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background:
+    radial-gradient(ellipse 80% 50% at 50% 65%, rgba(45, 48, 52, 0.45) 0%, rgba(16, 17, 18, 0.95) 100%),
+    linear-gradient(180deg, #101112 0%, #151719 50%, #0d0e0f 100%);
+  pointer-events: none;
+}
+
+.inner {
+  position: relative;
+  width: 100%;
+  max-width: 1520px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 1;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 36px;
+  max-width: 840px;
+}
+
+.chapterLabel {
+  font-family: var(--font-technical);
+  font-size: 11px;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--luvion-racing-red);
+  margin: 0 0 12px;
+  font-weight: 600;
+}
+
+.title {
+  font-family: var(--font-display);
+  font-size: clamp(32px, 5.5vw, 56px);
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  color: var(--luvion-porcelain);
+  margin: 0 0 16px;
+  text-transform: uppercase;
+  line-height: 1.05;
+}
+
+.subtitle {
+  font-family: var(--font-editorial);
+  font-size: clamp(14px, 1.8vw, 17px);
+  color: var(--luvion-titanium);
+  margin: 0;
+  line-height: 1.6;
+}
+
+/* Hero Vehicle Stage */
+.stage {
+  position: relative;
+  width: 100%;
+  max-width: 1360px;
+  aspect-ratio: 16 / 9;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  background: #090a0c;
+  border: 1px solid var(--luvion-border);
+  box-shadow: 0 32px 80px -16px rgba(0, 0, 0, 0.75);
+}
+
+.imageSlide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 60%;
+  opacity: 0;
+  transform: scale(1.025);
+  transition: opacity 0.85s var(--ease-out-expo), transform 1.2s var(--ease-out-expo);
+  pointer-events: none;
+}
+
+.imageSlideActive {
+  opacity: 1;
+  transform: scale(1);
+  pointer-events: auto;
+}
+
+.stageVignette {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background:
+    linear-gradient(to bottom, rgba(16, 17, 18, 0.4) 0%, transparent 25%, transparent 65%, rgba(10, 11, 12, 0.85) 100%),
+    radial-gradient(circle at 50% 50%, transparent 60%, rgba(8, 9, 11, 0.5) 100%);
+  pointer-events: none;
+}
+
+/* Nav Controls */
+.navArrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: rgba(16, 17, 18, 0.65);
+  border: 1px solid var(--luvion-border-medium);
+  color: var(--luvion-porcelain);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: var(--transition-quick);
+  backdrop-filter: blur(8px);
+  z-index: 5;
+}
+
+.navArrow:hover {
+  background: rgba(255, 255, 255, 0.15);
+  border-color: var(--luvion-porcelain);
+  transform: translateY(-50%) scale(1.08);
+}
+
+.navPrev {
+  left: 20px;
+}
+
+.navNext {
+  right: 20px;
+}
+
+/* Overlay Color Info */
+.colorOverlay {
+  position: absolute;
+  bottom: 24px;
+  left: 28px;
+  right: 28px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 20px;
+  z-index: 4;
+}
+
+.colorMeta {
+  max-width: 580px;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.8);
+}
+
+.colorCategory {
+  font-family: var(--font-technical);
+  font-size: 11px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--luvion-racing-red);
+  margin: 0 0 4px;
+  font-weight: 600;
+}
+
+.colorName {
+  font-family: var(--font-display);
+  font-size: clamp(22px, 3.2vw, 36px);
+  font-weight: 600;
+  color: var(--luvion-porcelain);
+  margin: 0 0 8px;
+  letter-spacing: -0.01em;
+}
+
+.colorDesc {
+  font-family: var(--font-editorial);
+  font-size: 13.5px;
+  color: var(--luvion-titanium);
+  margin: 0;
+  line-height: 1.5;
+}
+
+.progressContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 8px;
+}
+
+.slideCounter {
+  font-family: var(--font-technical);
+  font-size: 13px;
+  letter-spacing: 0.14em;
+  color: var(--luvion-porcelain-muted);
+}
+
+.progressBarBg {
+  width: 140px;
+  height: 3px;
+  background: rgba(255, 255, 255, 0.14);
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.progressBarFill {
+  height: 100%;
+  background: var(--luvion-racing-red);
+  transition: width 0.1s linear;
+}
+
+/* Swatches selector bar below stage */
+.swatchesBar {
+  margin-top: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.swatchBtn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 16px;
+  border-radius: var(--radius-sm);
+  background: rgba(24, 26, 28, 0.6);
+  border: 1px solid var(--luvion-border);
+  color: var(--luvion-titanium);
+  cursor: pointer;
+  transition: var(--transition-quick);
+  font-family: var(--font-technical);
+  font-size: 12px;
+  letter-spacing: 0.06em;
+}
+
+.swatchBtn:hover {
+  background: rgba(36, 38, 41, 0.9);
+  border-color: var(--luvion-border-hover);
+  color: var(--luvion-porcelain);
+}
+
+.swatchBtnActive {
+  background: rgba(45, 48, 52, 0.95);
+  border-color: var(--luvion-racing-red);
+  color: var(--luvion-porcelain);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
+}
+
+.swatchPip {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  flex-shrink: 0;
+}
+
+.disclosureFooter {
+  margin-top: 24px;
+  font-family: var(--font-technical);
+  font-size: 10.5px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--luvion-titanium-dark);
+  text-align: center;
+}
+
+@media (max-width: 900px) {
+  .colorOverlay {
+    position: relative;
+    bottom: auto;
+    left: auto;
+    right: auto;
+    padding: 16px 20px;
+    background: #141618;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .stage {
+    aspect-ratio: 4 / 3;
+  }
+  .navArrow {
+    width: 38px;
+    height: 38px;
+  }
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding: 60px 16px 40px;
+  }
+  .swatchesBar {
+    gap: 8px;
+  }
+  .swatchBtn {
+    padding: 6px 12px;
+    font-size: 11px;
+  }
+}

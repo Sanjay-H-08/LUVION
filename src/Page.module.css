@@ -9,6 +9,61 @@
   background-color: rgb(8, 9, 11);
 }
 
+.openingFrame {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+  z-index: 1;
+}
+
+.openingFrameActive {
+  opacity: 1 !important;
+  pointer-events: auto !important;
+  z-index: 2;
+}
+
+.skipIntroBtn {
+  position: absolute;
+  top: 28px;
+  right: 32px;
+  z-index: 100;
+  font-family: var(--font-technical);
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--luvion-porcelain-muted);
+  background: rgba(16, 17, 18, 0.7);
+  border: 1px solid var(--luvion-border-medium);
+  padding: 8px 18px;
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  backdrop-filter: blur(12px);
+  transition: var(--transition-quick);
+}
+
+.skipIntroBtn:hover {
+  color: var(--luvion-porcelain);
+  border-color: var(--luvion-porcelain);
+  background: rgba(255, 255, 255, 0.15);
+  transform: translateY(-1px);
+}
+
+.interactiveAction {
+  cursor: pointer;
+  transition: var(--transition-quick);
+}
+
+.interactiveAction:hover {
+  transform: translateY(-2px);
+  filter: brightness(1.2);
+}
+
 .text {
   display: flex;
   flex-direction: column;
@@ -38,7 +93,7 @@
   position: absolute;
   top: 0px;
   left: 0px;
-  background-image: url("https://framerusercontent.com/images/a7PR3OokU3T1kzZ3bBLVQTOaD4.jpg");
+  background-image: url("/assets/porsche/optimized/gt3rs_992_icegrey_side_studio.webp");
   background-size: cover;
   background-position: center;
 }
@@ -78,7 +133,7 @@
   position: absolute;
   top: 0px;
   left: 0px;
-  background-image: url("https://framerusercontent.com/images/a7PR3OokU3T1kzZ3bBLVQTOaD4.jpg");
+  background-image: url("/assets/porsche/optimized/gt3rs_992_icegrey_side_studio.webp");
   background-size: cover;
   background-position: center;
 }
@@ -127,7 +182,7 @@
   position: absolute;
   top: 0px;
   left: 0px;
-  background-image: url("https://framerusercontent.com/images/a7PR3OokU3T1kzZ3bBLVQTOaD4.jpg");
+  background-image: url("/assets/porsche/optimized/gt3rs_992_icegrey_side_studio.webp");
   background-size: cover;
   background-position: center;
 }
@@ -167,7 +222,7 @@
   position: absolute;
   top: 0px;
   left: 0px;
-  background-image: url("https://framerusercontent.com/images/a7PR3OokU3T1kzZ3bBLVQTOaD4.jpg");
+  background-image: url("/assets/porsche/optimized/gt3rs_992_icegrey_side_studio.webp");
   background-size: cover;
   background-position: center;
 }
@@ -207,7 +262,7 @@
   position: absolute;
   top: 0px;
   left: 0px;
-  background-image: url("https://framerusercontent.com/images/8oKNBRqu39sbY5hsbgWqAncGA4.jpg");
+  background-image: url("/assets/porsche/optimized/gt3rs_992_icegrey_rear34_studio.webp");
   background-size: cover;
   background-position: center;
 }
@@ -246,7 +301,7 @@
   position: absolute;
   top: 0px;
   left: 0px;
-  background-image: url("https://framerusercontent.com/images/USGivmfSqAR3Z8Qhi3pzCXRJFag.jpg");
+  background-image: url("/assets/porsche/optimized/gt3rs_992_icegrey_track_dynamic.webp");
   background-size: cover;
   background-position: center;
 }
@@ -358,7 +413,7 @@
   position: absolute;
   top: -680px;
   left: -1650px;
-  background-image: url("https://framerusercontent.com/images/a7PR3OokU3T1kzZ3bBLVQTOaD4.jpg");
+  background-image: url("/assets/porsche/optimized/gt3rs_992_icegrey_side_studio.webp");
   background-size: cover;
   background-position: center;
 }
@@ -1118,7 +1173,7 @@
   height: 600px;
   border-radius: 22px;
   overflow: hidden;
-  background-image: url("https://framerusercontent.com/images/fyRL2LrCPR9DReTJdXPtgdrFis.jpg");
+  background-image: url("/assets/porsche/optimized/gt3rs_992_macadamia_hero_front34.webp");
   background-size: cover;
   background-position: center;
 }
@@ -1315,7 +1370,7 @@
   aspect-ratio: 1.778;
   border-radius: 22px;
   overflow: hidden;
-  background-image: url("https://framerusercontent.com/images/bE3iJhpr0x0kGUH2HpyLGHwbkw.jpg");
+  background-image: url("/assets/porsche/optimized/gt3rs_992_icegrey_direct_back.webp");
   background-size: cover;
   background-position: center;
 }
@@ -1428,7 +1483,7 @@
   position: absolute;
   top: 286px;
   left: 80px;
-  background-image: url("https://framerusercontent.com/images/a7PR3OokU3T1kzZ3bBLVQTOaD4.jpg");
+  background-image: url("/assets/porsche/optimized/gt3rs_992_icegrey_side_studio.webp");
   background-size: cover;
   background-position: center;
 }
@@ -1439,7 +1494,7 @@
   position: absolute;
   top: 286px;
   left: 1090px;
-  background-image: url("https://framerusercontent.com/images/USGivmfSqAR3Z8Qhi3pzCXRJFag.jpg");
+  background-image: url("/assets/porsche/optimized/gt3rs_992_icegrey_track_dynamic.webp");
   background-size: cover;
   background-position: center;
 }
@@ -1450,7 +1505,7 @@
   position: absolute;
   top: 602px;
   left: 1090px;
-  background-image: url("https://framerusercontent.com/images/8oKNBRqu39sbY5hsbgWqAncGA4.jpg");
+  background-image: url("/assets/porsche/optimized/gt3rs_992_icegrey_rear34_studio.webp");
   background-size: cover;
   background-position: center;
 }
@@ -1538,46 +1593,18 @@
 /* breakpoint: Tablet */
 
 @media (max-width: 1599px) {
-  .n-01-the-opening {
-    position: relative;
-    top: initial;
-    left: initial;
-  }
-
-  .n-02-the-light-sweep {
-    position: relative;
-    top: initial;
-    left: initial;
-  }
-
-  .n-03-light-sweep-end {
-    position: relative;
-    top: initial;
-    left: initial;
-  }
-
-  .n-04-the-reveal {
-    position: relative;
-    top: initial;
-    left: initial;
-  }
-
-  .n-05-the-hero-zoom {
-    position: relative;
-    top: initial;
-    left: initial;
-  }
-
-  .n-06-the-editorial {
-    position: relative;
-    top: initial;
-    left: initial;
-  }
-
+  .n-01-the-opening,
+  .n-02-the-light-sweep,
+  .n-03-light-sweep-end,
+  .n-04-the-reveal,
+  .n-05-the-hero-zoom,
+  .n-06-the-editorial,
   .n-07-the-performance-showcase {
-    position: relative;
-    top: initial;
-    left: initial;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
   }
 
   .text8 {
@@ -1594,7 +1621,7 @@
 
   .text12 {
     height: fit-content;
-    background-image: url("https://framerusercontent.com/images/bKHV3ePUgI0mwYDUkXt5qRQoTv0.jpeg");
+    background-image: url("/assets/porsche/optimized/gt3rs_992_icegrey_interior_cockpit.webp");
     background-size: cover;
     background-position: center;
     display: initial;
@@ -1602,7 +1629,7 @@
 
   .text14 {
     height: fit-content;
-    background-image: url("https://framerusercontent.com/images/uN0Gx1soD1lAwdUXyqJW5WNml64.jpeg");
+    background-image: url("/assets/porsche/optimized/gt3rs_992_icegrey_interior_steering.webp");
     background-size: cover;
     background-position: center;
     display: initial;
@@ -1610,7 +1637,7 @@
 
   .text17 {
     height: fit-content;
-    background-image: url("https://framerusercontent.com/images/kBI6UapLdYjSWJGp7RBoeMjzOpw.jpeg");
+    background-image: url("/assets/porsche/optimized/gt3rs_992_macadamia_interior_cockpit.webp");
     background-size: cover;
     background-position: center;
     display: initial;
@@ -1618,7 +1645,7 @@
 
   .text20 {
     height: fit-content;
-    background-image: url("https://framerusercontent.com/images/39MCIipTk32XzSTTsrWaWSlaQ.jpeg");
+    background-image: url("/assets/porsche/optimized/gt3rs_992_macadamia_interior_detail.webp");
     background-size: cover;
     background-position: center;
     display: initial;
@@ -1626,7 +1653,7 @@
 
   .text23 {
     height: fit-content;
-    background-image: url("https://framerusercontent.com/images/5RlzJc7y1YzWblh0yRR0d2png.jpeg");
+    background-image: url("/assets/porsche/optimized/gt3rs_992_tribute_pythongreen_interior.webp");
     background-size: cover;
     background-position: center;
     display: initial;
@@ -1669,16 +1696,25 @@
 
 @media (max-width: 809px) {
   .text {
-    height: 800px;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
   }
 
-  .n-01-the-opening {
-    width: 390px;
-    height: 800px;
-    position: relative;
+  .n-01-the-opening,
+  .n-02-the-light-sweep,
+  .n-03-light-sweep-end,
+  .n-04-the-reveal,
+  .n-05-the-hero-zoom,
+  .n-06-the-editorial,
+  .n-07-the-performance-showcase {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
     background-color: #101112;
-    top: initial;
-    left: initial;
   }
 
   .text2 {
@@ -1996,7 +2032,7 @@
 
   .text12 {
     height: fit-content;
-    background-image: url("https://framerusercontent.com/images/bKHV3ePUgI0mwYDUkXt5qRQoTv0.jpeg");
+    background-image: url("/assets/porsche/optimized/gt3rs_992_icegrey_interior_cockpit.webp");
     background-size: cover;
     background-position: center;
     display: initial;
@@ -2017,7 +2053,7 @@
 
   .text14 {
     height: fit-content;
-    background-image: url("https://framerusercontent.com/images/uN0Gx1soD1lAwdUXyqJW5WNml64.jpeg");
+    background-image: url("/assets/porsche/optimized/gt3rs_992_icegrey_interior_steering.webp");
     background-size: cover;
     background-position: center;
     display: initial;
@@ -2030,7 +2066,7 @@
 
   .text17 {
     height: fit-content;
-    background-image: url("https://framerusercontent.com/images/kBI6UapLdYjSWJGp7RBoeMjzOpw.jpeg");
+    background-image: url("/assets/porsche/optimized/gt3rs_992_macadamia_interior_cockpit.webp");
     background-size: cover;
     background-position: center;
     display: initial;
@@ -2043,7 +2079,7 @@
 
   .text20 {
     height: fit-content;
-    background-image: url("https://framerusercontent.com/images/39MCIipTk32XzSTTsrWaWSlaQ.jpeg");
+    background-image: url("/assets/porsche/optimized/gt3rs_992_macadamia_interior_detail.webp");
     background-size: cover;
     background-position: center;
     display: initial;
@@ -2056,7 +2092,7 @@
 
   .text23 {
     height: fit-content;
-    background-image: url("https://framerusercontent.com/images/5RlzJc7y1YzWblh0yRR0d2png.jpeg");
+    background-image: url("/assets/porsche/optimized/gt3rs_992_tribute_pythongreen_interior.webp");
     background-size: cover;
     background-position: center;
     display: initial;
