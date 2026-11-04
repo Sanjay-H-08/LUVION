@@ -1,0 +1,563 @@
+.aerodynamics {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 24px;
+  width: 1440px;
+  height: fit-content;
+  overflow: hidden;
+  background-color: #242629;
+}
+
+.engineering-categories {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding: 8px;
+  width: 100%;
+  height: fit-content;
+}
+
+.aerodynamics2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 12px 16px 12px 16px;
+  width: fit-content;
+  height: fit-content;
+  background-color: #B52630;
+}
+
+.aerodynamics3 {
+  width: fit-content;
+  height: fit-content;
+  color: var(--color-mono-white, #fff);
+}
+
+.exterior {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 12px 16px 12px 16px;
+  width: fit-content;
+  height: fit-content;
+}
+
+.exterior2 {
+  width: fit-content;
+  height: fit-content;
+  color: var(--color-mono-white, #fff);
+}
+
+.interior {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 12px 16px 12px 16px;
+  width: fit-content;
+  height: fit-content;
+}
+
+.interior2 {
+  width: fit-content;
+  height: fit-content;
+  color: var(--color-mono-white, #fff);
+}
+
+.cockpit {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 12px 16px 12px 16px;
+  width: fit-content;
+  height: fit-content;
+}
+
+.cockpit2 {
+  width: fit-content;
+  height: fit-content;
+  color: var(--color-mono-white, #fff);
+}
+
+.performance {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 12px 16px 12px 16px;
+  width: fit-content;
+  height: fit-content;
+}
+
+.performance2 {
+  width: fit-content;
+  height: fit-content;
+  color: var(--color-mono-white, #fff);
+}
+
+.cinematic-engineering-photography {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  height: fit-content;
+  position: relative;
+  overflow: hidden;
+  background-color: #101112;
+}
+
+.aerodynamics-porsche-newsroom {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.exterior-porsche-newsroom {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  opacity: 0;
+  background-image: url("https://framerusercontent.com/images/rTTi50pSVIkobZlgQKkUmlLfNc.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+
+.interior-porsche-newsroom {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  opacity: 0;
+  background-image: url("https://framerusercontent.com/images/39MCIipTk32XzSTTsrWaWSlaQ.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+
+.cockpit-porsche-newsroom {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  opacity: 0;
+  background-image: url("https://framerusercontent.com/images/uN0Gx1soD1lAwdUXyqJW5WNml64.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+
+.performance-porsche-newsroom {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  opacity: 0;
+  background-image: url("https://framerusercontent.com/images/MlDVK4lB7fcFhcHjfSArZ2bLw.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+
+.engineering-information {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 16px;
+  padding: 24px;
+  width: 100%;
+  height: fit-content;
+  overflow: hidden;
+  background-color: #101112;
+}
+
+.synchronized-engineering-captions {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  height: fit-content;
+}
+
+.aerodynamics-information {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 12px;
+  width: 100%;
+  height: fit-content;
+}
+
+.progress {
+  width: 100%;
+  height: fit-content;
+  color: var(--color-mono-white, #fff);
+}
+
+.heading {
+  width: 100%;
+  height: fit-content;
+  color: var(--color-mono-white, #fff);
+}
+
+.description {
+  width: 100%;
+  height: fit-content;
+  color: var(--color-mono-white, #fff);
+}
+
+.annotations {
+  width: 100%;
+  height: fit-content;
+  color: var(--color-mono-white, #fff);
+}
+
+.exterior-information {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 12px;
+  width: 100%;
+  height: fit-content;
+  opacity: 0;
+}
+
+.progress2 {
+  width: 100%;
+  height: fit-content;
+  color: var(--color-mono-white, #fff);
+}
+
+.heading2 {
+  width: 100%;
+  height: fit-content;
+  color: var(--color-mono-white, #fff);
+}
+
+.description2 {
+  width: 100%;
+  height: fit-content;
+  color: var(--color-mono-white, #fff);
+}
+
+.annotations2 {
+  width: 100%;
+  height: fit-content;
+  color: var(--color-mono-white, #fff);
+}
+
+.interior-information {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 12px;
+  width: 100%;
+  height: fit-content;
+  opacity: 0;
+}
+
+.progress3 {
+  width: 100%;
+  height: fit-content;
+  color: var(--color-mono-white, #fff);
+}
+
+.heading3 {
+  width: 100%;
+  height: fit-content;
+  color: var(--color-mono-white, #fff);
+}
+
+.description3 {
+  width: 100%;
+  height: fit-content;
+  color: var(--color-mono-white, #fff);
+}
+
+.annotations3 {
+  width: 100%;
+  height: fit-content;
+  color: var(--color-mono-white, #fff);
+}
+
+.cockpit-information {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 12px;
+  width: 100%;
+  height: fit-content;
+  opacity: 0;
+}
+
+.progress4 {
+  width: 100%;
+  height: fit-content;
+  color: var(--color-mono-white, #fff);
+}
+
+.heading4 {
+  width: 100%;
+  height: fit-content;
+  color: var(--color-mono-white, #fff);
+}
+
+.description4 {
+  width: 100%;
+  height: fit-content;
+  color: var(--color-mono-white, #fff);
+}
+
+.annotations4 {
+  width: 100%;
+  height: fit-content;
+  color: var(--color-mono-white, #fff);
+}
+
+.performance-information {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 12px;
+  width: 100%;
+  height: fit-content;
+  opacity: 0;
+}
+
+.progress5 {
+  width: 100%;
+  height: fit-content;
+  color: var(--color-mono-white, #fff);
+}
+
+.heading5 {
+  width: 100%;
+  height: fit-content;
+  color: var(--color-mono-white, #fff);
+}
+
+.description5 {
+  width: 100%;
+  height: fit-content;
+  color: var(--color-mono-white, #fff);
+}
+
+.annotations5 {
+  width: 100%;
+  height: fit-content;
+  color: var(--color-mono-white, #fff);
+}
+
+.engineering-text-sizing-guide {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 12px;
+  width: 100%;
+  height: fit-content;
+  opacity: 0;
+}
+
+.progress6 {
+  width: 100%;
+  height: fit-content;
+  color: var(--color-mono-white, #fff);
+}
+
+.heading6 {
+  width: 100%;
+  height: fit-content;
+  color: var(--color-mono-white, #fff);
+}
+
+.description6 {
+  width: 100%;
+  height: fit-content;
+  color: var(--color-mono-white, #fff);
+}
+
+.annotations6 {
+  width: 100%;
+  height: fit-content;
+  color: var(--color-mono-white, #fff);
+}
+
+.previous-and-next {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 12px;
+  width: 100%;
+  height: fit-content;
+}
+
+.previous-category {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+  width: 48px;
+  height: 44px;
+  position: relative;
+  border-style: solid;
+  border-color: #969A9E;
+  border-width: 1px;
+}
+
+.next-category {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+  width: 48px;
+  height: 44px;
+  position: relative;
+  border-style: solid;
+  border-color: #969A9E;
+  border-width: 1px;
+}
+
+/* variant: EXTERIOR */
+
+.aerodynamics[data-variant="EXTERIOR"] .aerodynamics2 {
+  background-color: initial;
+}
+
+.aerodynamics[data-variant="EXTERIOR"] .exterior {
+  background-color: #B52630;
+}
+
+.aerodynamics[data-variant="EXTERIOR"] .aerodynamics-porsche-newsroom {
+  height: fit-content;
+  opacity: 0;
+  background-image: url("https://framerusercontent.com/images/gg9rgwMLF0kWbuemmxyEU7mXg0.jpeg");
+  background-size: cover;
+  background-position: center;
+  display: initial;
+}
+
+.aerodynamics[data-variant="EXTERIOR"] .exterior-porsche-newsroom {
+  opacity: initial;
+}
+
+.aerodynamics[data-variant="EXTERIOR"] .aerodynamics-information {
+  opacity: 0;
+}
+
+.aerodynamics[data-variant="EXTERIOR"] .exterior-information {
+  opacity: initial;
+}
+
+/* variant: INTERIOR */
+
+.aerodynamics[data-variant="INTERIOR"] .aerodynamics2 {
+  background-color: initial;
+}
+
+.aerodynamics[data-variant="INTERIOR"] .interior {
+  background-color: #B52630;
+}
+
+.aerodynamics[data-variant="INTERIOR"] .aerodynamics-porsche-newsroom {
+  height: fit-content;
+  opacity: 0;
+  background-image: url("https://framerusercontent.com/images/gg9rgwMLF0kWbuemmxyEU7mXg0.jpeg");
+  background-size: cover;
+  background-position: center;
+  display: initial;
+}
+
+.aerodynamics[data-variant="INTERIOR"] .interior-porsche-newsroom {
+  opacity: initial;
+}
+
+.aerodynamics[data-variant="INTERIOR"] .aerodynamics-information {
+  opacity: 0;
+}
+
+.aerodynamics[data-variant="INTERIOR"] .interior-information {
+  opacity: initial;
+}
+
+/* variant: COCKPIT */
+
+.aerodynamics[data-variant="COCKPIT"] .aerodynamics2 {
+  background-color: initial;
+}
+
+.aerodynamics[data-variant="COCKPIT"] .cockpit {
+  background-color: #B52630;
+}
+
+.aerodynamics[data-variant="COCKPIT"] .aerodynamics-porsche-newsroom {
+  height: fit-content;
+  opacity: 0;
+  background-image: url("https://framerusercontent.com/images/gg9rgwMLF0kWbuemmxyEU7mXg0.jpeg");
+  background-size: cover;
+  background-position: center;
+  display: initial;
+}
+
+.aerodynamics[data-variant="COCKPIT"] .cockpit-porsche-newsroom {
+  opacity: initial;
+}
+
+.aerodynamics[data-variant="COCKPIT"] .aerodynamics-information {
+  opacity: 0;
+}
+
+.aerodynamics[data-variant="COCKPIT"] .cockpit-information {
+  opacity: initial;
+}
+
+/* variant: PERFORMANCE */
+
+.aerodynamics[data-variant="PERFORMANCE"] .aerodynamics2 {
+  background-color: initial;
+}
+
+.aerodynamics[data-variant="PERFORMANCE"] .performance {
+  background-color: #B52630;
+}
+
+.aerodynamics[data-variant="PERFORMANCE"] .aerodynamics-porsche-newsroom {
+  height: fit-content;
+  opacity: 0;
+  background-image: url("https://framerusercontent.com/images/gg9rgwMLF0kWbuemmxyEU7mXg0.jpeg");
+  background-size: cover;
+  background-position: center;
+  display: initial;
+}
+
+.aerodynamics[data-variant="PERFORMANCE"] .performance-porsche-newsroom {
+  opacity: initial;
+}
+
+.aerodynamics[data-variant="PERFORMANCE"] .aerodynamics-information {
+  opacity: 0;
+}
+
+.aerodynamics[data-variant="PERFORMANCE"] .performance-information {
+  opacity: initial;
+}

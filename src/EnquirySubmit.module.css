@@ -1,0 +1,31 @@
+.ready {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 18px 24px 18px 24px;
+  width: 420px;
+  height: fit-content;
+  border-radius: 14px;
+  overflow: hidden;
+  background-color: #B52630;
+}
+
+.send-enquiry {
+  text-align: center;
+  width: fit-content;
+  height: fit-content;
+  color: var(--color-mono-white, #fff);
+}
+
+/* variant: Ready */
+
+.ready:hover {
+  opacity: 0.9;
+}
+
+/* variant: Ready */
+
+.ready:active {
+  opacity: 0.95;
+}

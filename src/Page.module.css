@@ -1,0 +1,2120 @@
+.desktop {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: fit-content;
+  overflow: hidden;
+  background-color: rgb(8, 9, 11);
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+  background-color: rgb(8, 9, 11);
+}
+
+.n-01-the-opening {
+  width: 1600px;
+  height: 900px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.text2 {
+  width: 1600px;
+  height: 900px;
+  aspect-ratio: 1.778;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-image: url("https://framerusercontent.com/images/a7PR3OokU3T1kzZ3bBLVQTOaD4.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.cinematic-tonal-gradient {
+  width: 1600px;
+  height: 900px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-image: linear-gradient(115deg, rgba(37, 77, 105, 0.23) 0%, rgba(8, 9, 11, 0) 54%, rgba(176, 58, 46, 0.15) 100%);
+}
+
+.rectangle-2 {
+  width: 1600px;
+  height: 900px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: rgba(8, 9, 11, 0.3);
+}
+
+.n-02-the-light-sweep {
+  width: 1600px;
+  height: 900px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.text3 {
+  width: 1600px;
+  height: 900px;
+  aspect-ratio: 1.778;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-image: url("https://framerusercontent.com/images/a7PR3OokU3T1kzZ3bBLVQTOaD4.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.cinematic-tonal-gradient2 {
+  width: 1600px;
+  height: 900px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-image: linear-gradient(110deg, rgba(41, 85, 112, 0.18) 0%, rgba(8, 9, 11, 0) 58%, rgba(183, 61, 46, 0.13) 100%);
+}
+
+.rectangle-22 {
+  width: 1600px;
+  height: 900px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: rgba(8, 9, 11, 0.44999998807907104);
+}
+
+.rectangle-3 {
+  width: 1600px;
+  height: 900px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.18) 50%, rgba(255, 255, 255, 0) 100%);
+}
+
+.n-03-light-sweep-end {
+  width: 1600px;
+  height: 900px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.text4 {
+  width: 1600px;
+  height: 900px;
+  aspect-ratio: 1.778;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-image: url("https://framerusercontent.com/images/a7PR3OokU3T1kzZ3bBLVQTOaD4.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.cinematic-tonal-gradient3 {
+  width: 1600px;
+  height: 900px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-image: linear-gradient(105deg, rgba(41, 85, 112, 0.1) 0%, rgba(8, 9, 11, 0) 60%, rgba(183, 61, 46, 0.09) 100%);
+}
+
+.rectangle-23 {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-color: rgba(8, 9, 11, 0.44999998807907104);
+}
+
+.n-04-the-reveal {
+  width: 1600px;
+  height: 900px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.direct-side-highres-1 {
+  width: 1600px;
+  height: 900px;
+  aspect-ratio: 1.778;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-image: url("https://framerusercontent.com/images/a7PR3OokU3T1kzZ3bBLVQTOaD4.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.cinematic-tonal-gradient4 {
+  width: 1600px;
+  height: 900px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-image: linear-gradient(110deg, rgba(8, 9, 11, 0) 0%, rgba(213, 0, 28, 0.06) 100%);
+}
+
+.rectangle-24 {
+  width: 1600px;
+  height: 900px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: rgba(8, 9, 11, 0.44999998807907104);
+}
+
+.n-05-the-hero-zoom {
+  width: 1600px;
+  height: 900px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.text5 {
+  width: 1600px;
+  height: 900px;
+  aspect-ratio: 1.778;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-image: url("https://framerusercontent.com/images/8oKNBRqu39sbY5hsbgWqAncGA4.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.cinematic-tonal-gradient5 {
+  width: 1600px;
+  height: 900px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-image: linear-gradient(89.99999999999997deg, rgba(8, 9, 11, 0) 0%, rgba(8, 9, 11, 0.25) 100%);
+}
+
+.rectangle-25 {
+  width: 1600px;
+  height: 900px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: rgba(8, 9, 11, 0.44999998807907104);
+}
+
+.n-06-the-editorial {
+  width: 1600px;
+  height: 900px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+  background-color: rgba(8, 9, 11, 1);
+}
+
+.text6 {
+  width: 1600px;
+  height: 900px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-image: url("https://framerusercontent.com/images/USGivmfSqAR3Z8Qhi3pzCXRJFag.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.overlay-global {
+  width: 1600px;
+  height: 900px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  opacity: 0.38;
+  background-color: rgba(8, 9, 11, 1);
+}
+
+.overlay-left-gradient {
+  width: 900px;
+  height: 900px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-image: linear-gradient(90deg, rgba(8, 9, 11, 0.8) 0%, rgba(8, 9, 11, 0.5) 50%, rgba(8, 9, 11, 0) 100%);
+}
+
+.editorial-content {
+  padding: 120px 80px 120px 80px;
+  width: 560px;
+  height: 900px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.content-top {
+  gap: 40px;
+  width: 420px;
+  height: 380px;
+  position: absolute;
+  top: 272px;
+  left: 80px;
+}
+
+.accent-line {
+  width: 2px;
+  height: 44px;
+  position: absolute;
+  top: 0px;
+  left: -20px;
+  background-color: rgba(213, 0, 28, 1);
+}
+
+.text-stack {
+  gap: 24px;
+  width: 420px;
+  height: 380px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.label {
+  width: 420px;
+  height: fit-content;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  opacity: 0.72;
+}
+
+.heading {
+  width: 420px;
+  height: fit-content;
+  position: absolute;
+  top: 40px;
+  left: 0px;
+}
+
+.text-rule {
+  width: 40px;
+  height: 1px;
+  position: absolute;
+  top: 214px;
+  left: 0px;
+  background-color: rgba(213, 0, 28, 1);
+}
+
+.supporting-text {
+  width: 360px;
+  height: fit-content;
+  position: absolute;
+  top: 232px;
+  left: 0px;
+  opacity: 0.8;
+}
+
+.n-07-the-performance-showcase {
+  width: 1600px;
+  height: 900px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+  background-color: rgba(8, 9, 11, 1);
+}
+
+.text7 {
+  width: 3360px;
+  height: 1890px;
+  position: absolute;
+  top: -680px;
+  left: -1650px;
+  background-image: url("https://framerusercontent.com/images/a7PR3OokU3T1kzZ3bBLVQTOaD4.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.charcoal-atmosphere {
+  width: 1600px;
+  height: 900px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  opacity: 0.22;
+  background-color: rgba(8, 9, 11, 1);
+}
+
+.editorial-shadow {
+  width: 1600px;
+  height: 900px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-image: linear-gradient(90deg, rgba(8, 9, 11, 0) 0%, rgba(8, 9, 11, 0) 50%, rgba(8, 9, 11, 0.6) 76%, rgba(8, 9, 11, 0.78) 100%);
+}
+
+.lower-photographic-fade {
+  width: 1600px;
+  height: 300px;
+  position: absolute;
+  top: 600px;
+  left: 0px;
+  background-image: linear-gradient(180deg, rgba(8, 9, 11, 0) 0%, rgba(8, 9, 11, 0.78) 100%);
+}
+
+.closing-signature {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 1472px;
+  height: fit-content;
+  position: absolute;
+  top: 801px;
+  left: 64px;
+}
+
+.model-signature {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 8px;
+  width: fit-content;
+  height: fit-content;
+}
+
+.model {
+  width: fit-content;
+  height: fit-content;
+  color: var(--color-mono-white, #fff);
+}
+
+.brand-philosophy {
+  width: fit-content;
+  height: fit-content;
+  color: var(--color-mono-white, #fff);
+}
+
+.sequence-indicator {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  width: fit-content;
+  height: fit-content;
+}
+
+.current-chapter {
+  width: fit-content;
+  height: fit-content;
+  color: var(--color-mono-white, #fff);
+}
+
+.sequence-track {
+  width: 72px;
+  height: 1px;
+  background-color: rgba(213, 0, 28, 1);
+}
+
+.final-chapter {
+  width: fit-content;
+  height: fit-content;
+  color: var(--color-mono-white, #fff);
+}
+
+.performance-statement {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 24px;
+  width: 480px;
+  height: fit-content;
+  position: absolute;
+  top: 269px;
+  left: 1056px;
+}
+
+.editorial-label {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 12px;
+  width: fit-content;
+  height: fit-content;
+}
+
+.motorsport-accent {
+  width: 2px;
+  height: 28px;
+  background-color: rgba(213, 0, 28, 1);
+}
+
+.category {
+  width: fit-content;
+  height: fit-content;
+  color: var(--color-mono-white, #fff);
+}
+
+.headline {
+  width: 480px;
+  height: fit-content;
+  color: var(--color-mono-white, #fff);
+}
+
+.statement-rule {
+  width: 40px;
+  height: 1px;
+  background-color: rgba(213, 0, 28, 1);
+}
+
+.supporting-copy {
+  width: 370px;
+  height: fit-content;
+  color: var(--color-mono-white, #fff);
+}
+
+.discover-action {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+  padding: 12px 0px 0px 0px;
+  width: fit-content;
+  height: fit-content;
+}
+
+.action-label {
+  width: fit-content;
+  height: fit-content;
+  color: var(--color-mono-white, #fff);
+}
+
+.explore-arrow {
+  width: 30px;
+  height: 16px;
+}
+
+.masthead {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 1472px;
+  height: fit-content;
+  position: absolute;
+  top: 48px;
+  left: 64px;
+}
+
+.marque {
+  width: fit-content;
+  height: fit-content;
+  color: var(--color-mono-white, #fff);
+}
+
+.chapter {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 12px;
+  width: fit-content;
+  height: fit-content;
+}
+
+.chapter-accent {
+  width: 24px;
+  height: 1px;
+  background-color: rgba(213, 0, 28, 1);
+}
+
+.chapter-title {
+  width: fit-content;
+  height: fit-content;
+  color: var(--color-mono-white, #fff);
+}
+
+.n-08-the-3d-experience {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  height: fit-content;
+  max-width: 100%;
+  background-color: rgb(8, 9, 11);
+}
+
+.text8 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 120px 80px 120px 80px;
+  width: 100%;
+  height: fit-content;
+  overflow: hidden;
+  background-color: #101112;
+}
+
+.text9 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 24px;
+  width: 100%;
+  height: fit-content;
+  max-width: 1440px;
+}
+
+.chapter-label {
+  align-self: stretch;
+  height: fit-content;
+  color: var(--color-mono-white, #fff);
+}
+
+.section-title {
+  align-self: stretch;
+  height: fit-content;
+  color: var(--color-mono-white, #fff);
+}
+
+.preview-disclosure {
+  align-self: stretch;
+  height: fit-content;
+  color: var(--color-mono-white, #fff);
+}
+
+.n-10-anatomy-of-performance {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 120px 80px 120px 80px;
+  width: 100%;
+  height: fit-content;
+  overflow: hidden;
+  background-color: #242629;
+}
+
+.text10 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 24px;
+  width: 100%;
+  height: fit-content;
+  max-width: 1440px;
+}
+
+.chapter-label2 {
+  align-self: stretch;
+  height: fit-content;
+  color: var(--color-mono-white, #fff);
+}
+
+.section-title2 {
+  align-self: stretch;
+  height: fit-content;
+  color: var(--color-mono-white, #fff);
+}
+
+.text11 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 120px 80px 120px 80px;
+  width: 100%;
+  height: fit-content;
+  overflow: hidden;
+  background-color: #101112;
+}
+
+.interior-editorial-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 24px;
+  width: 100%;
+  height: fit-content;
+  max-width: 1440px;
+  overflow: hidden;
+}
+
+.interior-chapter {
+  align-self: stretch;
+  height: fit-content;
+  color: var(--color-mono-white, #fff);
+}
+
+.interior-title {
+  align-self: stretch;
+  height: fit-content;
+  color: var(--color-mono-white, #fff);
+}
+
+.text12 {
+  width: 100%;
+  height: auto;
+  border-radius: 22px;
+  overflow: hidden;
+  display: block;
+}
+
+.interior-editorial-caption {
+  align-self: stretch;
+  height: fit-content;
+  color: var(--color-mono-white, #fff);
+}
+
+.interior-detail-editorial {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+  width: 100%;
+  height: fit-content;
+  overflow: hidden;
+}
+
+.text13 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 0px 0px 4px 0px;
+  width: 100%;
+  height: fit-content;
+  overflow: hidden;
+}
+
+.text14 {
+  width: 100%;
+  height: auto;
+  border-radius: 22px;
+  overflow: hidden;
+  display: block;
+}
+
+.text15 {
+  align-self: stretch;
+  height: fit-content;
+  color: var(--color-mono-white, #fff);
+}
+
+.text16 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 0px 0px 4px 0px;
+  width: 100%;
+  height: fit-content;
+  overflow: hidden;
+}
+
+.text17 {
+  width: 100%;
+  height: auto;
+  border-radius: 22px;
+  overflow: hidden;
+  display: block;
+}
+
+.text18 {
+  align-self: stretch;
+  height: fit-content;
+  color: var(--color-mono-white, #fff);
+}
+
+.text19 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 0px 0px 4px 0px;
+  width: 100%;
+  height: fit-content;
+  overflow: hidden;
+}
+
+.text20 {
+  width: 100%;
+  height: auto;
+  border-radius: 22px;
+  overflow: hidden;
+  display: block;
+}
+
+.text21 {
+  align-self: stretch;
+  height: fit-content;
+  color: var(--color-mono-white, #fff);
+}
+
+.text22 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 0px 0px 4px 0px;
+  width: 100%;
+  height: fit-content;
+  overflow: hidden;
+}
+
+.text23 {
+  width: 100%;
+  height: auto;
+  border-radius: 22px;
+  overflow: hidden;
+  display: block;
+}
+
+.text24 {
+  align-self: stretch;
+  height: fit-content;
+  color: var(--color-mono-white, #fff);
+}
+
+.n-11-performance {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 120px 80px 120px 80px;
+  width: 100%;
+  height: fit-content;
+  overflow: hidden;
+  background-color: #101112;
+}
+
+.n-11-performance-editorial-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 24px;
+  width: 100%;
+  height: fit-content;
+  max-width: 1440px;
+}
+
+.n-11-performance2 {
+  align-self: stretch;
+  height: fit-content;
+  color: var(--color-mono-white, #fff);
+}
+
+.text25 {
+  align-self: stretch;
+  height: fit-content;
+  color: var(--color-mono-white, #fff);
+}
+
+.factory-performance-figures {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+  align-self: stretch;
+  height: fit-content;
+}
+
+.n-386-kw-naturally-aspirated {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 24px 16px 24px 16px;
+  width: 100%;
+  height: fit-content;
+  border-radius: 16px;
+  overflow: hidden;
+  background-color: #242629;
+}
+
+.n-525-ps {
+  align-self: stretch;
+  height: fit-content;
+  color: var(--color-mono-white, #fff);
+}
+
+.n-386-kw-naturally-aspirated2 {
+  align-self: stretch;
+  height: fit-content;
+  color: var(--color-mono-white, #fff);
+}
+
+.n-0-100-km-h {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 24px 16px 24px 16px;
+  width: 100%;
+  height: fit-content;
+  border-radius: 16px;
+  overflow: hidden;
+  background-color: #242629;
+}
+
+.n-3-2-s {
+  align-self: stretch;
+  height: fit-content;
+  color: var(--color-mono-white, #fff);
+}
+
+.n-0-100-km-h2 {
+  align-self: stretch;
+  height: fit-content;
+  color: var(--color-mono-white, #fff);
+}
+
+.km-h-top-speed {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 24px 16px 24px 16px;
+  width: 100%;
+  height: fit-content;
+  border-radius: 16px;
+  overflow: hidden;
+  background-color: #242629;
+}
+
+.n-296 {
+  align-self: stretch;
+  height: fit-content;
+  color: var(--color-mono-white, #fff);
+}
+
+.km-h-top-speed2 {
+  align-self: stretch;
+  height: fit-content;
+  color: var(--color-mono-white, #fff);
+}
+
+.maximum-torque {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 24px 16px 24px 16px;
+  width: 100%;
+  height: fit-content;
+  border-radius: 16px;
+  overflow: hidden;
+  background-color: #242629;
+}
+
+.n-465-nm {
+  align-self: stretch;
+  height: fit-content;
+  color: var(--color-mono-white, #fff);
+}
+
+.maximum-torque2 {
+  align-self: stretch;
+  height: fit-content;
+  color: var(--color-mono-white, #fff);
+}
+
+.text26 {
+  align-self: stretch;
+  height: fit-content;
+  color: var(--color-mono-white, #fff);
+}
+
+.porsche-specification-source {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 24px;
+  padding: 12px 16px 12px 16px;
+  width: fit-content;
+  height: fit-content;
+  border-radius: 14px;
+  overflow: hidden;
+}
+
+.text27 {
+  width: fit-content;
+  height: fit-content;
+  color: var(--color-mono-white, #fff);
+}
+
+.n-12-the-gallery {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 120px 80px 120px 80px;
+  width: 100%;
+  height: fit-content;
+  overflow: hidden;
+  background-color: #101112;
+}
+
+.text28 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 24px;
+  width: 100%;
+  height: fit-content;
+  max-width: 1440px;
+}
+
+.n-12-the-gallery2 {
+  align-self: stretch;
+  height: fit-content;
+  color: var(--color-mono-white, #fff);
+}
+
+.text29 {
+  align-self: stretch;
+  height: fit-content;
+  color: var(--color-mono-white, #fff);
+}
+
+.text30 {
+  align-self: stretch;
+  height: fit-content;
+  color: var(--color-mono-white, #fff);
+}
+
+.n-13-the-story {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 120px 80px 120px 80px;
+  width: 100%;
+  height: fit-content;
+  overflow: hidden;
+  background-color: #101112;
+}
+
+.n-13-the-story-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 24px;
+  width: 100%;
+  height: fit-content;
+  max-width: 1440px;
+}
+
+.n-13-the-story2 {
+  align-self: stretch;
+  height: fit-content;
+  color: var(--color-mono-white, #fff);
+}
+
+.text31 {
+  align-self: stretch;
+  height: fit-content;
+  color: var(--color-mono-white, #fff);
+}
+
+.n-14-experience-porsche {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 120px 80px 120px 80px;
+  width: 100%;
+  height: fit-content;
+  overflow: hidden;
+  background-color: #101112;
+}
+
+.n-14-experience-porsche-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 24px;
+  width: 100%;
+  height: fit-content;
+  max-width: 1440px;
+}
+
+.n-14-experience-porsche2 {
+  align-self: stretch;
+  height: fit-content;
+  color: var(--color-mono-white, #fff);
+}
+
+.text32 {
+  align-self: stretch;
+  height: fit-content;
+  color: var(--color-mono-white, #fff);
+}
+
+.text33 {
+  align-self: stretch;
+  height: fit-content;
+  max-width: 680px;
+  color: var(--color-mono-white, #fff);
+}
+
+.text34 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 24px;
+  width: 100%;
+  height: 600px;
+  border-radius: 22px;
+  overflow: hidden;
+  background-image: url("https://framerusercontent.com/images/fyRL2LrCPR9DReTJdXPtgdrFis.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.test-drive-enquiry {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 24px;
+  padding: 24px;
+  width: 100%;
+  height: fit-content;
+  max-width: 900px;
+  border-radius: 20px;
+  overflow: hidden;
+  background-color: #242629;
+}
+
+.full-name {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 12px;
+  align-self: stretch;
+  height: fit-content;
+  overflow: hidden;
+}
+
+.full-name2 {
+  align-self: stretch;
+  height: fit-content;
+  color: var(--color-mono-white, #fff);
+}
+
+.email-address {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 12px;
+  align-self: stretch;
+  height: fit-content;
+  overflow: hidden;
+}
+
+.email-address2 {
+  align-self: stretch;
+  height: fit-content;
+  color: var(--color-mono-white, #fff);
+}
+
+.phone-number {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 12px;
+  align-self: stretch;
+  height: fit-content;
+  overflow: hidden;
+}
+
+.phone-number2 {
+  align-self: stretch;
+  height: fit-content;
+  color: var(--color-mono-white, #fff);
+}
+
+.city-preferred-porsche-centre {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 12px;
+  align-self: stretch;
+  height: fit-content;
+  overflow: hidden;
+}
+
+.city-preferred-porsche-centre2 {
+  align-self: stretch;
+  height: fit-content;
+  color: var(--color-mono-white, #fff);
+}
+
+.preferred-paint-colour {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 12px;
+  align-self: stretch;
+  height: fit-content;
+  overflow: hidden;
+}
+
+.preferred-paint-colour2 {
+  align-self: stretch;
+  height: fit-content;
+  color: var(--color-mono-white, #fff);
+}
+
+.preferred-date {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 12px;
+  align-self: stretch;
+  height: fit-content;
+  overflow: hidden;
+}
+
+.preferred-date2 {
+  align-self: stretch;
+  height: fit-content;
+  color: var(--color-mono-white, #fff);
+}
+
+.additional-message {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 12px;
+  align-self: stretch;
+  height: fit-content;
+  overflow: hidden;
+}
+
+.additional-message2 {
+  align-self: stretch;
+  height: fit-content;
+  color: var(--color-mono-white, #fff);
+}
+
+.text35 {
+  align-self: stretch;
+  height: fit-content;
+  color: var(--color-mono-white, #fff);
+}
+
+.n-15-final-statement {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 120px 80px 120px 80px;
+  width: 100%;
+  height: fit-content;
+  overflow: hidden;
+  background-color: #101112;
+}
+
+.n-11-final-statement-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 24px;
+  width: 100%;
+  height: fit-content;
+  max-width: 1440px;
+}
+
+.chapter-label3 {
+  align-self: stretch;
+  height: fit-content;
+  color: var(--color-mono-white, #fff);
+}
+
+.section-title3 {
+  align-self: stretch;
+  height: fit-content;
+  color: var(--color-mono-white, #fff);
+}
+
+.closing-statement {
+  align-self: stretch;
+  height: fit-content;
+  max-width: 680px;
+  color: var(--color-mono-white, #fff);
+}
+
+.final-porsche-portrait {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  height: 810px;
+  aspect-ratio: 1.778;
+  border-radius: 22px;
+  overflow: hidden;
+  background-image: url("https://framerusercontent.com/images/bE3iJhpr0x0kGUH2HpyLGHwbkw.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.campaign-signature {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 24px;
+  padding: 24px 0px 0px 0px;
+  width: 100%;
+  height: fit-content;
+}
+
+.luvion-signature {
+  width: fit-content;
+  height: fit-content;
+  color: var(--color-mono-white, #fff);
+}
+
+.back-to-intro {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 12px 18px 12px 18px;
+  width: 180px;
+  height: fit-content;
+  border-radius: 14px;
+}
+
+.return-label {
+  width: fit-content;
+  height: fit-content;
+  color: var(--color-mono-white, #fff);
+}
+
+.the-art-of-performance {
+  align-self: stretch;
+  height: fit-content;
+  color: var(--color-mono-white, #fff);
+}
+
+.text36 {
+  align-self: stretch;
+  height: fit-content;
+  color: var(--color-mono-white, #fff);
+}
+
+.begin-your-enquiry {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 24px;
+  padding: 16px 24px 16px 24px;
+  width: fit-content;
+  height: fit-content;
+  border-radius: 14px;
+  overflow: hidden;
+  background-color: #B52630;
+}
+
+.begin-your-enquiry2 {
+  width: fit-content;
+  height: fit-content;
+  color: var(--color-mono-white, #fff);
+}
+
+.luvion-cinematic-campaign-moodboard {
+  width: 1700px;
+  height: 1320px;
+  position: relative;
+  overflow: hidden;
+  background-color: rgba(36, 36, 36, 1);
+}
+
+.text {
+  width: 1540px;
+  height: fit-content;
+  position: absolute;
+  top: 60px;
+  left: 80px;
+  color: var(--color-mono-white, #fff);
+}
+
+.text2 {
+  width: 1540px;
+  height: fit-content;
+  position: absolute;
+  top: 110px;
+  left: 80px;
+  color: var(--color-mono-white, #fff);
+}
+
+.text3 {
+  width: 1540px;
+  height: fit-content;
+  position: absolute;
+  top: 198px;
+  left: 80px;
+  color: var(--color-mono-white, #fff);
+}
+
+.studio-controlled-light {
+  width: 980px;
+  height: 552px;
+  position: absolute;
+  top: 286px;
+  left: 80px;
+  background-image: url("https://framerusercontent.com/images/a7PR3OokU3T1kzZ3bBLVQTOaD4.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.pit-lane-editorial-space {
+  width: 530px;
+  height: 298px;
+  position: absolute;
+  top: 286px;
+  left: 1090px;
+  background-image: url("https://framerusercontent.com/images/USGivmfSqAR3Z8Qhi3pzCXRJFag.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.track-purposeful-performance {
+  width: 530px;
+  height: 298px;
+  position: absolute;
+  top: 602px;
+  left: 1090px;
+  background-image: url("https://framerusercontent.com/images/8oKNBRqu39sbY5hsbgWqAncGA4.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.n-01-light-reveal {
+  width: 450px;
+  height: fit-content;
+  position: absolute;
+  top: 890px;
+  left: 80px;
+  color: var(--color-mono-white, #fff);
+}
+
+.text4 {
+  width: 450px;
+  height: fit-content;
+  position: absolute;
+  top: 932px;
+  left: 80px;
+  color: var(--color-mono-white, #fff);
+}
+
+.n-02-editorial {
+  width: 450px;
+  height: fit-content;
+  position: absolute;
+  top: 890px;
+  left: 600px;
+  color: var(--color-mono-white, #fff);
+}
+
+.text5 {
+  width: 450px;
+  height: fit-content;
+  position: absolute;
+  top: 932px;
+  left: 600px;
+  color: var(--color-mono-white, #fff);
+}
+
+.n-03-restraint {
+  width: 450px;
+  height: fit-content;
+  position: absolute;
+  top: 960px;
+  left: 1120px;
+  color: var(--color-mono-white, #fff);
+}
+
+.text6 {
+  width: 450px;
+  height: fit-content;
+  position: absolute;
+  top: 1002px;
+  left: 1120px;
+  color: var(--color-mono-white, #fff);
+}
+
+.text7 {
+  width: 1540px;
+  height: fit-content;
+  position: absolute;
+  top: 1170px;
+  left: 80px;
+  color: var(--color-mono-white, #fff);
+}
+
+.form-input {
+  width: 100%;
+  padding: 10px 0;
+  font: inherit;
+  color: inherit;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid color-mix(in srgb, currentColor 25%, transparent);
+  border-radius: 0;
+  outline: none;
+  resize: vertical;
+}
+
+.form-input:focus {
+  border-bottom-color: currentColor;
+}
+
+/* breakpoint: Tablet */
+
+@media (max-width: 1599px) {
+  .n-01-the-opening {
+    position: relative;
+    top: initial;
+    left: initial;
+  }
+
+  .n-02-the-light-sweep {
+    position: relative;
+    top: initial;
+    left: initial;
+  }
+
+  .n-03-light-sweep-end {
+    position: relative;
+    top: initial;
+    left: initial;
+  }
+
+  .n-04-the-reveal {
+    position: relative;
+    top: initial;
+    left: initial;
+  }
+
+  .n-05-the-hero-zoom {
+    position: relative;
+    top: initial;
+    left: initial;
+  }
+
+  .n-06-the-editorial {
+    position: relative;
+    top: initial;
+    left: initial;
+  }
+
+  .n-07-the-performance-showcase {
+    position: relative;
+    top: initial;
+    left: initial;
+  }
+
+  .text8 {
+    padding: 80px 40px 80px 40px;
+  }
+
+  .n-10-anatomy-of-performance {
+    padding: 80px 40px 80px 40px;
+  }
+
+  .text11 {
+    padding: 80px 40px 80px 40px;
+  }
+
+  .text12 {
+    height: fit-content;
+    background-image: url("https://framerusercontent.com/images/bKHV3ePUgI0mwYDUkXt5qRQoTv0.jpeg");
+    background-size: cover;
+    background-position: center;
+    display: initial;
+  }
+
+  .text14 {
+    height: fit-content;
+    background-image: url("https://framerusercontent.com/images/uN0Gx1soD1lAwdUXyqJW5WNml64.jpeg");
+    background-size: cover;
+    background-position: center;
+    display: initial;
+  }
+
+  .text17 {
+    height: fit-content;
+    background-image: url("https://framerusercontent.com/images/kBI6UapLdYjSWJGp7RBoeMjzOpw.jpeg");
+    background-size: cover;
+    background-position: center;
+    display: initial;
+  }
+
+  .text20 {
+    height: fit-content;
+    background-image: url("https://framerusercontent.com/images/39MCIipTk32XzSTTsrWaWSlaQ.jpeg");
+    background-size: cover;
+    background-position: center;
+    display: initial;
+  }
+
+  .text23 {
+    height: fit-content;
+    background-image: url("https://framerusercontent.com/images/5RlzJc7y1YzWblh0yRR0d2png.jpeg");
+    background-size: cover;
+    background-position: center;
+    display: initial;
+  }
+
+  .n-11-performance {
+    padding: 80px 40px 80px 40px;
+  }
+
+  .factory-performance-figures {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .n-12-the-gallery {
+    padding: 80px 40px 80px 40px;
+  }
+
+  .n-13-the-story {
+    padding: 80px 40px 80px 40px;
+  }
+
+  .n-14-experience-porsche {
+    padding: 80px 40px 80px 40px;
+  }
+
+  .text34 {
+    height: fit-content;
+  }
+
+  .n-15-final-statement {
+    padding: 80px 40px 80px 40px;
+  }
+
+  .final-porsche-portrait {
+    height: 410.625px;
+  }
+}
+
+/* breakpoint: Phone */
+
+@media (max-width: 809px) {
+  .text {
+    height: 800px;
+  }
+
+  .n-01-the-opening {
+    width: 390px;
+    height: 800px;
+    position: relative;
+    background-color: #101112;
+    top: initial;
+    left: initial;
+  }
+
+  .text2 {
+    width: 800px;
+    height: 450px;
+    top: 100px;
+    left: -205px;
+    aspect-ratio: initial;
+  }
+
+  .cinematic-tonal-gradient {
+    width: 390px;
+    height: 800px;
+  }
+
+  .rectangle-2 {
+    width: 390px;
+    height: 800px;
+  }
+
+  .n-02-the-light-sweep {
+    width: 390px;
+    height: 800px;
+    position: relative;
+    background-color: #101112;
+    top: initial;
+    left: initial;
+  }
+
+  .text3 {
+    width: 800px;
+    height: 450px;
+    top: 100px;
+    left: -205px;
+    aspect-ratio: initial;
+  }
+
+  .cinematic-tonal-gradient2 {
+    width: 390px;
+    height: 800px;
+  }
+
+  .rectangle-22 {
+    width: 390px;
+    height: 800px;
+  }
+
+  .rectangle-3 {
+    width: 390px;
+    height: 800px;
+  }
+
+  .n-03-light-sweep-end {
+    width: 390px;
+    height: 800px;
+    position: relative;
+    background-color: #101112;
+    top: initial;
+    left: initial;
+  }
+
+  .text4 {
+    width: 800px;
+    height: 450px;
+    top: 100px;
+    left: -205px;
+    aspect-ratio: initial;
+  }
+
+  .cinematic-tonal-gradient3 {
+    width: 390px;
+    height: 800px;
+  }
+
+  .n-04-the-reveal {
+    width: 390px;
+    height: 800px;
+    position: relative;
+    background-color: #101112;
+    top: initial;
+    left: initial;
+  }
+
+  .direct-side-highres-1 {
+    width: 800px;
+    height: 450px;
+    top: 100px;
+    left: -205px;
+    aspect-ratio: initial;
+  }
+
+  .cinematic-tonal-gradient4 {
+    width: 390px;
+    height: 800px;
+  }
+
+  .rectangle-24 {
+    width: 390px;
+    height: 800px;
+  }
+
+  .n-05-the-hero-zoom {
+    width: 390px;
+    height: 800px;
+    position: relative;
+    background-color: #101112;
+    top: initial;
+    left: initial;
+  }
+
+  .text5 {
+    width: 800px;
+    height: 450px;
+    top: 100px;
+    left: -265px;
+    aspect-ratio: initial;
+  }
+
+  .cinematic-tonal-gradient5 {
+    width: 390px;
+    height: 800px;
+  }
+
+  .rectangle-25 {
+    width: 390px;
+    height: 800px;
+  }
+
+  .n-06-the-editorial {
+    width: 390px;
+    height: 800px;
+    position: relative;
+    top: initial;
+    left: initial;
+  }
+
+  .text6 {
+    width: 650px;
+    height: 366px;
+    top: 50px;
+    left: -200px;
+  }
+
+  .overlay-global {
+    width: 390px;
+    height: 800px;
+  }
+
+  .overlay-left-gradient {
+    width: 390px;
+    height: 800px;
+  }
+
+  .editorial-content {
+    width: 390px;
+    height: 800px;
+  }
+
+  .content-top {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 16px;
+    width: 342px;
+    height: fit-content;
+    top: 430px;
+    left: 24px;
+  }
+
+  .accent-line {
+    display: none;
+    position: initial;
+    top: initial;
+    left: initial;
+  }
+
+  .text-stack {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 16px;
+    align-self: stretch;
+    height: fit-content;
+    width: initial;
+    position: initial;
+    top: initial;
+    left: initial;
+  }
+
+  .label {
+    align-self: stretch;
+    width: initial;
+    position: initial;
+    top: initial;
+    left: initial;
+  }
+
+  .heading {
+    align-self: stretch;
+    width: initial;
+    position: initial;
+    top: initial;
+    left: initial;
+  }
+
+  .text-rule {
+    position: initial;
+    top: initial;
+    left: initial;
+  }
+
+  .supporting-text {
+    align-self: stretch;
+    width: initial;
+    position: initial;
+    top: initial;
+    left: initial;
+  }
+
+  .n-07-the-performance-showcase {
+    width: 390px;
+    height: 800px;
+    position: relative;
+    top: initial;
+    left: initial;
+  }
+
+  .text7 {
+    width: 1050px;
+    height: 591px;
+    top: -40px;
+    left: -460px;
+  }
+
+  .charcoal-atmosphere {
+    width: 390px;
+    height: 800px;
+  }
+
+  .editorial-shadow {
+    width: 390px;
+    height: 800px;
+  }
+
+  .lower-photographic-fade {
+    width: 390px;
+    height: 400px;
+    top: 220px;
+  }
+
+  .closing-signature {
+    width: 342px;
+    top: 728px;
+    left: 24px;
+  }
+
+  .model-signature {
+    width: 230px;
+  }
+
+  .model {
+    align-self: stretch;
+    width: initial;
+  }
+
+  .brand-philosophy {
+    align-self: stretch;
+    width: initial;
+  }
+
+  .performance-statement {
+    gap: 16px;
+    width: 342px;
+    top: 380px;
+    left: 24px;
+  }
+
+  .headline {
+    align-self: stretch;
+    width: initial;
+  }
+
+  .supporting-copy {
+    align-self: stretch;
+    width: initial;
+  }
+
+  .discover-action {
+    padding: 12px 16px 12px 16px;
+  }
+
+  .masthead {
+    width: 342px;
+    top: 24px;
+    left: 24px;
+  }
+
+  .chapter {
+    display: none;
+  }
+
+  .text8 {
+    padding: 80px 24px 80px 24px;
+  }
+
+  .n-10-anatomy-of-performance {
+    padding: 80px 24px 80px 24px;
+  }
+
+  .text11 {
+    padding: 80px 24px 80px 24px;
+  }
+
+  .text12 {
+    height: fit-content;
+    background-image: url("https://framerusercontent.com/images/bKHV3ePUgI0mwYDUkXt5qRQoTv0.jpeg");
+    background-size: cover;
+    background-position: center;
+    display: initial;
+  }
+
+  .interior-detail-editorial {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    grid-template-columns: initial;
+  }
+
+  .text13 {
+    align-self: stretch;
+    width: initial;
+  }
+
+  .text14 {
+    height: fit-content;
+    background-image: url("https://framerusercontent.com/images/uN0Gx1soD1lAwdUXyqJW5WNml64.jpeg");
+    background-size: cover;
+    background-position: center;
+    display: initial;
+  }
+
+  .text16 {
+    align-self: stretch;
+    width: initial;
+  }
+
+  .text17 {
+    height: fit-content;
+    background-image: url("https://framerusercontent.com/images/kBI6UapLdYjSWJGp7RBoeMjzOpw.jpeg");
+    background-size: cover;
+    background-position: center;
+    display: initial;
+  }
+
+  .text19 {
+    align-self: stretch;
+    width: initial;
+  }
+
+  .text20 {
+    height: fit-content;
+    background-image: url("https://framerusercontent.com/images/39MCIipTk32XzSTTsrWaWSlaQ.jpeg");
+    background-size: cover;
+    background-position: center;
+    display: initial;
+  }
+
+  .text22 {
+    align-self: stretch;
+    width: initial;
+  }
+
+  .text23 {
+    height: fit-content;
+    background-image: url("https://framerusercontent.com/images/5RlzJc7y1YzWblh0yRR0d2png.jpeg");
+    background-size: cover;
+    background-position: center;
+    display: initial;
+  }
+
+  .n-11-performance {
+    padding: 80px 24px 80px 24px;
+  }
+
+  .factory-performance-figures {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    grid-template-columns: initial;
+  }
+
+  .n-386-kw-naturally-aspirated {
+    align-self: stretch;
+    width: initial;
+  }
+
+  .n-0-100-km-h {
+    align-self: stretch;
+    width: initial;
+  }
+
+  .km-h-top-speed {
+    align-self: stretch;
+    width: initial;
+  }
+
+  .maximum-torque {
+    align-self: stretch;
+    width: initial;
+  }
+
+  .n-12-the-gallery {
+    padding: 80px 24px 80px 24px;
+  }
+
+  .n-13-the-story {
+    padding: 80px 24px 80px 24px;
+  }
+
+  .n-14-experience-porsche {
+    padding: 80px 24px 80px 24px;
+  }
+
+  .text34 {
+    height: fit-content;
+  }
+
+  .n-15-final-statement {
+    padding: 80px 24px 80px 24px;
+  }
+
+  .final-porsche-portrait {
+    height: 192.375px;
+  }
+}

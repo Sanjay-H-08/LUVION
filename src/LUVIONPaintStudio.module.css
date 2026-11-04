@@ -1,0 +1,984 @@
+.guards-red {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 24px;
+  width: 1440px;
+  height: fit-content;
+  overflow: hidden;
+  background-color: #E9E8E4;
+}
+
+.consistent-studio-composition {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  height: fit-content;
+  position: relative;
+  overflow: hidden;
+  background-image: url("https://framerusercontent.com/images/V522Keucz9u4ZCy6Kk9GBvPj49o.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 24px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+  background-image: url("https://framerusercontent.com/images/V522Keucz9u4ZCy6Kk9GBvPj49o.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.text2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 24px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  opacity: 0;
+  overflow: hidden;
+  background-image: url("https://framerusercontent.com/images/R0KzhAoQwFceCMJDkkUIDHvSzA.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.text3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 24px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  opacity: 0;
+  overflow: hidden;
+  background-image: url("https://framerusercontent.com/images/XHLe9bFvaSrksM6NcXKI5AommIw.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.text4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 24px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  opacity: 0;
+  overflow: hidden;
+  background-image: url("https://framerusercontent.com/images/7pz8eWDCBKD8sNb2ukV4rSFA.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.text5 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 24px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  opacity: 0;
+  overflow: hidden;
+  background-image: url("https://framerusercontent.com/images/oRoP0F8YaWi61GL1FU6kswDDk.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.text6 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 24px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  opacity: 0;
+  overflow: hidden;
+  background-image: url("https://framerusercontent.com/images/omgGEnvAYAVhtTYo0JAYDB3KR8.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.white-ai-paint-study {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 24px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  opacity: 0;
+  overflow: hidden;
+  background-image: url("https://framerusercontent.com/images/Dpus1ayhqB0BMu32CvAphtF76Q.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.black-ai-paint-study {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 24px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  opacity: 0;
+  overflow: hidden;
+  background-image: url("https://framerusercontent.com/images/hkP8U1EGPUGri0YPEVWMhiwuBeY.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.guards-red2 {
+  width: 100%;
+  height: fit-content;
+}
+
+.paint-selection {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  padding: 8px 16px 8px 16px;
+  width: 100%;
+  height: fit-content;
+  overflow: hidden;
+}
+
+.guards-red3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 6px;
+  width: 48px;
+  height: 48px;
+  position: relative;
+  border-radius: 50%;
+  overflow: hidden;
+  border-style: solid;
+  border-color: #101112;
+  border-width: 2px;
+}
+
+.guards-red-paint-swatch {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  transform: translateX(-50%) translateY(-50%);
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: #B52630;
+  border-style: solid;
+  border-color: rgba(16,17,18,.18);
+  border-width: 1px;
+}
+
+.lava-orange {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 6px;
+  width: 48px;
+  height: 48px;
+  position: relative;
+  border-radius: 50%;
+  overflow: hidden;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0);
+  border-width: 2px;
+}
+
+.lava-orange-paint-swatch {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  transform: translateX(-50%) translateY(-50%);
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: #F46A18;
+  border-style: solid;
+  border-color: rgba(16,17,18,.18);
+  border-width: 1px;
+}
+
+.shark-blue {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 6px;
+  width: 48px;
+  height: 48px;
+  position: relative;
+  border-radius: 50%;
+  overflow: hidden;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0);
+  border-width: 2px;
+}
+
+.shark-blue-paint-swatch {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  transform: translateX(-50%) translateY(-50%);
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: #168ED3;
+  border-style: solid;
+  border-color: rgba(16,17,18,.18);
+  border-width: 1px;
+}
+
+.python-green {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 6px;
+  width: 48px;
+  height: 48px;
+  position: relative;
+  border-radius: 50%;
+  overflow: hidden;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0);
+  border-width: 2px;
+}
+
+.python-green-paint-swatch {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  transform: translateX(-50%) translateY(-50%);
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: #3E9C39;
+  border-style: solid;
+  border-color: rgba(16,17,18,.18);
+  border-width: 1px;
+}
+
+.racing-yellow {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 6px;
+  width: 48px;
+  height: 48px;
+  position: relative;
+  border-radius: 50%;
+  overflow: hidden;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0);
+  border-width: 2px;
+}
+
+.racing-yellow-paint-swatch {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  transform: translateX(-50%) translateY(-50%);
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: #F1D62D;
+  border-style: solid;
+  border-color: rgba(16,17,18,.18);
+  border-width: 1px;
+}
+
+.gt-silver {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 6px;
+  width: 48px;
+  height: 48px;
+  position: relative;
+  border-radius: 50%;
+  overflow: hidden;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0);
+  border-width: 2px;
+}
+
+.gt-silver-paint-swatch {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  transform: translateX(-50%) translateY(-50%);
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: #A9ACAF;
+  border-style: solid;
+  border-color: rgba(16,17,18,.18);
+  border-width: 1px;
+}
+
+.white {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 6px;
+  width: 48px;
+  height: 48px;
+  position: relative;
+  border-radius: 50%;
+  overflow: hidden;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0);
+  border-width: 2px;
+}
+
+.white-paint-swatch {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  transform: translateX(-50%) translateY(-50%);
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: #F0EEE8;
+  border-style: solid;
+  border-color: rgba(16,17,18,.18);
+  border-width: 1px;
+}
+
+.black {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 6px;
+  width: 48px;
+  height: 48px;
+  position: relative;
+  border-radius: 50%;
+  overflow: hidden;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0);
+  border-width: 2px;
+}
+
+.black-paint-swatch {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  transform: translateX(-50%) translateY(-50%);
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: #17191B;
+  border-style: solid;
+  border-color: rgba(16,17,18,.18);
+  border-width: 1px;
+}
+
+/* variant: Lava Orange */
+
+.guards-red[data-variant="Lava Orange"] .text {
+  opacity: 0;
+}
+
+.guards-red[data-variant="Lava Orange"] .text2 {
+  opacity: initial;
+}
+
+.guards-red[data-variant="Lava Orange"] .guards-red3 {
+  border-color: rgba(0, 0, 0, 0);
+}
+
+.guards-red[data-variant="Lava Orange"] .guards-red-paint-swatch {
+  position: initial;
+  left: initial;
+  top: initial;
+  transform: initial;
+}
+
+.guards-red[data-variant="Lava Orange"] .lava-orange {
+  border-color: #101112;
+}
+
+.guards-red[data-variant="Lava Orange"] .lava-orange-paint-swatch {
+  position: initial;
+  left: initial;
+  top: initial;
+  transform: initial;
+}
+
+.guards-red[data-variant="Lava Orange"] .shark-blue-paint-swatch {
+  position: initial;
+  left: initial;
+  top: initial;
+  transform: initial;
+}
+
+.guards-red[data-variant="Lava Orange"] .python-green-paint-swatch {
+  position: initial;
+  left: initial;
+  top: initial;
+  transform: initial;
+}
+
+.guards-red[data-variant="Lava Orange"] .racing-yellow-paint-swatch {
+  position: initial;
+  left: initial;
+  top: initial;
+  transform: initial;
+}
+
+.guards-red[data-variant="Lava Orange"] .gt-silver-paint-swatch {
+  position: initial;
+  left: initial;
+  top: initial;
+  transform: initial;
+}
+
+.guards-red[data-variant="Lava Orange"] .white-paint-swatch {
+  position: initial;
+  left: initial;
+  top: initial;
+  transform: initial;
+}
+
+.guards-red[data-variant="Lava Orange"] .black-paint-swatch {
+  position: initial;
+  left: initial;
+  top: initial;
+  transform: initial;
+}
+
+/* variant: Shark Blue */
+
+.guards-red[data-variant="Shark Blue"] .text {
+  opacity: 0;
+}
+
+.guards-red[data-variant="Shark Blue"] .text3 {
+  opacity: initial;
+}
+
+.guards-red[data-variant="Shark Blue"] .guards-red3 {
+  border-color: rgba(0, 0, 0, 0);
+}
+
+.guards-red[data-variant="Shark Blue"] .guards-red-paint-swatch {
+  position: initial;
+  left: initial;
+  top: initial;
+  transform: initial;
+}
+
+.guards-red[data-variant="Shark Blue"] .lava-orange-paint-swatch {
+  position: initial;
+  left: initial;
+  top: initial;
+  transform: initial;
+}
+
+.guards-red[data-variant="Shark Blue"] .shark-blue {
+  border-color: #101112;
+}
+
+.guards-red[data-variant="Shark Blue"] .shark-blue-paint-swatch {
+  position: initial;
+  left: initial;
+  top: initial;
+  transform: initial;
+}
+
+.guards-red[data-variant="Shark Blue"] .python-green-paint-swatch {
+  position: initial;
+  left: initial;
+  top: initial;
+  transform: initial;
+}
+
+.guards-red[data-variant="Shark Blue"] .racing-yellow-paint-swatch {
+  position: initial;
+  left: initial;
+  top: initial;
+  transform: initial;
+}
+
+.guards-red[data-variant="Shark Blue"] .gt-silver-paint-swatch {
+  position: initial;
+  left: initial;
+  top: initial;
+  transform: initial;
+}
+
+.guards-red[data-variant="Shark Blue"] .white-paint-swatch {
+  position: initial;
+  left: initial;
+  top: initial;
+  transform: initial;
+}
+
+.guards-red[data-variant="Shark Blue"] .black-paint-swatch {
+  position: initial;
+  left: initial;
+  top: initial;
+  transform: initial;
+}
+
+/* variant: Python Green */
+
+.guards-red[data-variant="Python Green"] .text {
+  opacity: 0;
+}
+
+.guards-red[data-variant="Python Green"] .text4 {
+  opacity: initial;
+}
+
+.guards-red[data-variant="Python Green"] .guards-red3 {
+  border-color: rgba(0, 0, 0, 0);
+}
+
+.guards-red[data-variant="Python Green"] .guards-red-paint-swatch {
+  position: initial;
+  left: initial;
+  top: initial;
+  transform: initial;
+}
+
+.guards-red[data-variant="Python Green"] .lava-orange-paint-swatch {
+  position: initial;
+  left: initial;
+  top: initial;
+  transform: initial;
+}
+
+.guards-red[data-variant="Python Green"] .shark-blue-paint-swatch {
+  position: initial;
+  left: initial;
+  top: initial;
+  transform: initial;
+}
+
+.guards-red[data-variant="Python Green"] .python-green {
+  border-color: #101112;
+}
+
+.guards-red[data-variant="Python Green"] .python-green-paint-swatch {
+  position: initial;
+  left: initial;
+  top: initial;
+  transform: initial;
+}
+
+.guards-red[data-variant="Python Green"] .racing-yellow-paint-swatch {
+  position: initial;
+  left: initial;
+  top: initial;
+  transform: initial;
+}
+
+.guards-red[data-variant="Python Green"] .gt-silver-paint-swatch {
+  position: initial;
+  left: initial;
+  top: initial;
+  transform: initial;
+}
+
+.guards-red[data-variant="Python Green"] .white-paint-swatch {
+  position: initial;
+  left: initial;
+  top: initial;
+  transform: initial;
+}
+
+.guards-red[data-variant="Python Green"] .black-paint-swatch {
+  position: initial;
+  left: initial;
+  top: initial;
+  transform: initial;
+}
+
+/* variant: Racing Yellow */
+
+.guards-red[data-variant="Racing Yellow"] .text {
+  opacity: 0;
+}
+
+.guards-red[data-variant="Racing Yellow"] .text5 {
+  opacity: initial;
+}
+
+.guards-red[data-variant="Racing Yellow"] .guards-red3 {
+  border-color: rgba(0, 0, 0, 0);
+}
+
+.guards-red[data-variant="Racing Yellow"] .guards-red-paint-swatch {
+  position: initial;
+  left: initial;
+  top: initial;
+  transform: initial;
+}
+
+.guards-red[data-variant="Racing Yellow"] .lava-orange-paint-swatch {
+  position: initial;
+  left: initial;
+  top: initial;
+  transform: initial;
+}
+
+.guards-red[data-variant="Racing Yellow"] .shark-blue-paint-swatch {
+  position: initial;
+  left: initial;
+  top: initial;
+  transform: initial;
+}
+
+.guards-red[data-variant="Racing Yellow"] .python-green-paint-swatch {
+  position: initial;
+  left: initial;
+  top: initial;
+  transform: initial;
+}
+
+.guards-red[data-variant="Racing Yellow"] .racing-yellow {
+  border-color: #101112;
+}
+
+.guards-red[data-variant="Racing Yellow"] .racing-yellow-paint-swatch {
+  position: initial;
+  left: initial;
+  top: initial;
+  transform: initial;
+}
+
+.guards-red[data-variant="Racing Yellow"] .gt-silver-paint-swatch {
+  position: initial;
+  left: initial;
+  top: initial;
+  transform: initial;
+}
+
+.guards-red[data-variant="Racing Yellow"] .white-paint-swatch {
+  position: initial;
+  left: initial;
+  top: initial;
+  transform: initial;
+}
+
+.guards-red[data-variant="Racing Yellow"] .black-paint-swatch {
+  position: initial;
+  left: initial;
+  top: initial;
+  transform: initial;
+}
+
+/* variant: GT Silver */
+
+.guards-red[data-variant="GT Silver"] .text {
+  opacity: 0;
+}
+
+.guards-red[data-variant="GT Silver"] .text6 {
+  opacity: initial;
+}
+
+.guards-red[data-variant="GT Silver"] .guards-red3 {
+  border-color: rgba(0, 0, 0, 0);
+}
+
+.guards-red[data-variant="GT Silver"] .guards-red-paint-swatch {
+  position: initial;
+  left: initial;
+  top: initial;
+  transform: initial;
+}
+
+.guards-red[data-variant="GT Silver"] .lava-orange-paint-swatch {
+  position: initial;
+  left: initial;
+  top: initial;
+  transform: initial;
+}
+
+.guards-red[data-variant="GT Silver"] .shark-blue-paint-swatch {
+  position: initial;
+  left: initial;
+  top: initial;
+  transform: initial;
+}
+
+.guards-red[data-variant="GT Silver"] .python-green-paint-swatch {
+  position: initial;
+  left: initial;
+  top: initial;
+  transform: initial;
+}
+
+.guards-red[data-variant="GT Silver"] .racing-yellow-paint-swatch {
+  position: initial;
+  left: initial;
+  top: initial;
+  transform: initial;
+}
+
+.guards-red[data-variant="GT Silver"] .gt-silver {
+  border-color: #101112;
+}
+
+.guards-red[data-variant="GT Silver"] .gt-silver-paint-swatch {
+  position: initial;
+  left: initial;
+  top: initial;
+  transform: initial;
+}
+
+.guards-red[data-variant="GT Silver"] .white-paint-swatch {
+  position: initial;
+  left: initial;
+  top: initial;
+  transform: initial;
+}
+
+.guards-red[data-variant="GT Silver"] .black-paint-swatch {
+  position: initial;
+  left: initial;
+  top: initial;
+  transform: initial;
+}
+
+/* variant: White */
+
+.guards-red[data-variant="White"] .text {
+  opacity: 0;
+}
+
+.guards-red[data-variant="White"] .white-ai-paint-study {
+  opacity: initial;
+}
+
+.guards-red[data-variant="White"] .guards-red3 {
+  border-color: rgba(0, 0, 0, 0);
+}
+
+.guards-red[data-variant="White"] .guards-red-paint-swatch {
+  position: initial;
+  left: initial;
+  top: initial;
+  transform: initial;
+}
+
+.guards-red[data-variant="White"] .lava-orange-paint-swatch {
+  position: initial;
+  left: initial;
+  top: initial;
+  transform: initial;
+}
+
+.guards-red[data-variant="White"] .shark-blue-paint-swatch {
+  position: initial;
+  left: initial;
+  top: initial;
+  transform: initial;
+}
+
+.guards-red[data-variant="White"] .python-green-paint-swatch {
+  position: initial;
+  left: initial;
+  top: initial;
+  transform: initial;
+}
+
+.guards-red[data-variant="White"] .racing-yellow-paint-swatch {
+  position: initial;
+  left: initial;
+  top: initial;
+  transform: initial;
+}
+
+.guards-red[data-variant="White"] .gt-silver-paint-swatch {
+  position: initial;
+  left: initial;
+  top: initial;
+  transform: initial;
+}
+
+.guards-red[data-variant="White"] .white {
+  border-color: #101112;
+}
+
+.guards-red[data-variant="White"] .white-paint-swatch {
+  position: initial;
+  left: initial;
+  top: initial;
+  transform: initial;
+}
+
+.guards-red[data-variant="White"] .black-paint-swatch {
+  position: initial;
+  left: initial;
+  top: initial;
+  transform: initial;
+}
+
+/* variant: Black */
+
+.guards-red[data-variant="Black"] .text {
+  opacity: 0;
+}
+
+.guards-red[data-variant="Black"] .black-ai-paint-study {
+  opacity: initial;
+}
+
+.guards-red[data-variant="Black"] .guards-red3 {
+  border-color: rgba(0, 0, 0, 0);
+}
+
+.guards-red[data-variant="Black"] .guards-red-paint-swatch {
+  position: initial;
+  left: initial;
+  top: initial;
+  transform: initial;
+}
+
+.guards-red[data-variant="Black"] .lava-orange-paint-swatch {
+  position: initial;
+  left: initial;
+  top: initial;
+  transform: initial;
+}
+
+.guards-red[data-variant="Black"] .shark-blue-paint-swatch {
+  position: initial;
+  left: initial;
+  top: initial;
+  transform: initial;
+}
+
+.guards-red[data-variant="Black"] .python-green-paint-swatch {
+  position: initial;
+  left: initial;
+  top: initial;
+  transform: initial;
+}
+
+.guards-red[data-variant="Black"] .racing-yellow-paint-swatch {
+  position: initial;
+  left: initial;
+  top: initial;
+  transform: initial;
+}
+
+.guards-red[data-variant="Black"] .gt-silver-paint-swatch {
+  position: initial;
+  left: initial;
+  top: initial;
+  transform: initial;
+}
+
+.guards-red[data-variant="Black"] .white-paint-swatch {
+  position: initial;
+  left: initial;
+  top: initial;
+  transform: initial;
+}
+
+.guards-red[data-variant="Black"] .black {
+  border-color: #101112;
+}
+
+.guards-red[data-variant="Black"] .black-paint-swatch {
+  position: initial;
+  left: initial;
+  top: initial;
+  transform: initial;
+}
